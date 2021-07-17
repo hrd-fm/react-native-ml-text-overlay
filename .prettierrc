@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-prettier"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*/.tsx",
+        "*/.ts"
+      ],
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ],
+  "parser": "typescript",
+  "printWidth": 100,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "es5"
+}
