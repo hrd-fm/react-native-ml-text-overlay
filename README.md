@@ -4,7 +4,7 @@ Overlay layer for OCR / Vision results, complete with depth rendering, loading i
 
 Used internally at [Lineup](https://www.lineup.events)
 
-![How it works](https://media.giphy.com/media/3TPJu22M6Vo56Q847k/giphy.gif)
+![How it works](https://media.giphy.com/media/FLQIca4UXBzomqcoyp/giphy.gif)
 
 ## Installation
 
