@@ -1,0 +1,10365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`converts converts XYtoBoundary to boundary 1`] = `
+Object {
+  "height": 1346,
+  "left": 41,
+  "top": 25,
+  "width": 896,
+}
+`;
+
+exports[`converts converts cloud vision to the right format 1`] = `
+Array [
+  Object {
+    "bounding": Object {
+      "height": 1346,
+      "left": 41,
+      "top": 25,
+      "width": 896,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 41,
+        "y": 25,
+      },
+      Object {
+        "x": 937,
+        "y": 25,
+      },
+      Object {
+        "x": 937,
+        "y": 1371,
+      },
+      Object {
+        "x": 41,
+        "y": 1371,
+      },
+    ],
+    "locale": "en",
+    "text": "TATE
+FULL LINEUP
+ANNOUNCED
+514 STATE
+FESTIVAL
+-2021-
+SAT 7TH AUG
+OVER 100 ARTISTS
+ACROSS 7 STAGES
+TRENT PARK, LONDON I 11AM-10PM
+MASTERS AT WORK
+BODY & SOUL
+(FRANÇOIS K, JOE CLAUSSELL & DANNY KRIVIT)
+HANNAH WANTS
+ROGER SANCHEZ
+(LONDON FESTIVAL EXCLUSIVE)
+(CLASSIC HOUSE SET)
+MARK KNIGHT
+DIMITRI FROM PARIS
+(SPECIAL GUEST)
+(SPECIAL GUEST)
+A-Z
+AMINE EDGE & DANCE ANANE VEGA BARBARA TUCKER - LIVE BOBBY & STEVE
+BONTAN BRAND NEW HEAVIES -LIVE CHARLY BLACK-LIVE DAVE LEE
+DREEM TEEM (DJ SPOONY & MIKEEB) HEARTLESS CREW (MIGHTY MOE,
+BUSHKIN & DJ FONTI) HOUSE GOSPEL CHOIR-LIVE HOUSE N'HD (MIKE DUNN &
+TERRY HUNTER) JAZZIE B-OBE JOCELYN BROWN-LIVE JOHN MORALES
+LAURAINE MCINTOSH (COOL NOTES) -LIVE MAJESTIC MATT JAM LAMONT
+RATPACK THE HEATWAVE TODD EDWARDS TODD TERRY WOOKIE
+A-Z
+AITCH B & JAZZIQ ALAN BURTON ALICAI HARLEY-LIVE ALISON LIMERICK-LIVE BIZZIE PARTY-LIVE CHAMPAIN
+CHEY SELECTA CLARKIE COLIN DALE COLIN WILLIAMS DJ ALTON DJ BIGGER DJ CHALKE WHITE DJ KIERON DJ LISTENER
+DJ LUST & STEVE WAYBACK WHEN DJ RAE-LIVE ELLIE COCKS ELLIS DEE FREDDIE BAD GROOVER WASHINGTON HOUSE POET
+HUCK FINN J KAZ-LIVE JAMESEY JASONH JASON KAYE JERRY BASCOMBE JERRY RANKIN JIGS JODIAN NATTY-LIVE
+JUNIOR GISCOMBE -LIVE KEITH THOMPSON -LIVE PA LADY T & MISS RAY LLOYD LIFE LONYO-LIVE MARK FELTON (DOLLY ROCKERS)
+MARK RADFORD MASTERSTEPZ MATT WHITE MC-BLAKEY MC-BUZZHARD MC-CKP MC-CREED MC-DT MC-E MIX MC-KIE
+MC-ONYX STONE MC-PSG MC-RANKING NICO & DEAN DETACHED NORRIS DA BOSS WINDROSS OMOTOSHO OPOLOPO
+PHILGOOD & RAM RANDY PETERSON RATPACK REPLAY ROBBO RANX ROSE WINDROSS-LIVE SAMMY CONFUNKTION SELLY J
+SHOLA AMA-LIVE SIR DJ COREY STEVE HARRINGTON STEVE MACCA STICKO ZAZA TREVOR FUNG & TRACEEG
+VICTOR ANDERSON VIRTUOSO DJ'S (SHILOH / DOMINIQUE DANIELLE / Q-B/BLUSH) WALLACE WOLF AURIS
+51STSTATEFESTIVAL.COM
+FOUND BACK WE
+GROOVE
+ODYSSEY
+TOIS SOUL
+.NET
+",
+  },
+  Object {
+    "bounding": Object {
+      "height": 13,
+      "left": 797,
+      "top": 71,
+      "width": 44,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 797,
+        "y": 71,
+      },
+      Object {
+        "x": 841,
+        "y": 26,
+      },
+      Object {
+        "x": 855,
+        "y": 39,
+      },
+      Object {
+        "x": 811,
+        "y": 84,
+      },
+    ],
+    "locale": undefined,
+    "text": "TATE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 59,
+      "left": 44,
+      "top": 156,
+      "width": 83,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 44,
+        "y": 156,
+      },
+      Object {
+        "x": 127,
+        "y": 156,
+      },
+      Object {
+        "x": 127,
+        "y": 215,
+      },
+      Object {
+        "x": 44,
+        "y": 215,
+      },
+    ],
+    "locale": undefined,
+    "text": "FULL",
+  },
+  Object {
+    "bounding": Object {
+      "height": 59,
+      "left": 140,
+      "top": 156,
+      "width": 125,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 140,
+        "y": 156,
+      },
+      Object {
+        "x": 265,
+        "y": 156,
+      },
+      Object {
+        "x": 265,
+        "y": 215,
+      },
+      Object {
+        "x": 140,
+        "y": 215,
+      },
+    ],
+    "locale": undefined,
+    "text": "LINEUP",
+  },
+  Object {
+    "bounding": Object {
+      "height": 60,
+      "left": 41,
+      "top": 209,
+      "width": 217,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 41,
+        "y": 209,
+      },
+      Object {
+        "x": 258,
+        "y": 208,
+      },
+      Object {
+        "x": 258,
+        "y": 268,
+      },
+      Object {
+        "x": 41,
+        "y": 269,
+      },
+    ],
+    "locale": undefined,
+    "text": "ANNOUNCED",
+  },
+  Object {
+    "bounding": Object {
+      "height": 69,
+      "left": 698,
+      "top": 98,
+      "width": 71,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 698,
+        "y": 98,
+      },
+      Object {
+        "x": 769,
+        "y": 98,
+      },
+      Object {
+        "x": 769,
+        "y": 167,
+      },
+      Object {
+        "x": 698,
+        "y": 167,
+      },
+    ],
+    "locale": undefined,
+    "text": "514",
+  },
+  Object {
+    "bounding": Object {
+      "height": 69,
+      "left": 778,
+      "top": 98,
+      "width": 135,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 778,
+        "y": 98,
+      },
+      Object {
+        "x": 913,
+        "y": 99,
+      },
+      Object {
+        "x": 913,
+        "y": 168,
+      },
+      Object {
+        "x": 778,
+        "y": 167,
+      },
+    ],
+    "locale": undefined,
+    "text": "STATE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 68,
+      "left": 696,
+      "top": 171,
+      "width": 215,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 696,
+        "y": 171,
+      },
+      Object {
+        "x": 911,
+        "y": 172,
+      },
+      Object {
+        "x": 911,
+        "y": 240,
+      },
+      Object {
+        "x": 696,
+        "y": 239,
+      },
+    ],
+    "locale": undefined,
+    "text": "FESTIVAL",
+  },
+  Object {
+    "bounding": Object {
+      "height": 46,
+      "left": 706,
+      "top": 245,
+      "width": 187,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 706,
+        "y": 245,
+      },
+      Object {
+        "x": 893,
+        "y": 248,
+      },
+      Object {
+        "x": 892,
+        "y": 294,
+      },
+      Object {
+        "x": 705,
+        "y": 291,
+      },
+    ],
+    "locale": undefined,
+    "text": "-2021",
+  },
+  Object {
+    "bounding": Object {
+      "height": 55,
+      "left": 698,
+      "top": 300,
+      "width": 63,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 698,
+        "y": 300,
+      },
+      Object {
+        "x": 761,
+        "y": 300,
+      },
+      Object {
+        "x": 761,
+        "y": 355,
+      },
+      Object {
+        "x": 698,
+        "y": 355,
+      },
+    ],
+    "locale": undefined,
+    "text": "SAT",
+  },
+  Object {
+    "bounding": Object {
+      "height": 55,
+      "left": 772,
+      "top": 300,
+      "width": 63,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 772,
+        "y": 300,
+      },
+      Object {
+        "x": 835,
+        "y": 300,
+      },
+      Object {
+        "x": 835,
+        "y": 355,
+      },
+      Object {
+        "x": 772,
+        "y": 355,
+      },
+    ],
+    "locale": undefined,
+    "text": "7TH",
+  },
+  Object {
+    "bounding": Object {
+      "height": 55,
+      "left": 846,
+      "top": 300,
+      "width": 67,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 846,
+        "y": 300,
+      },
+      Object {
+        "x": 913,
+        "y": 300,
+      },
+      Object {
+        "x": 913,
+        "y": 355,
+      },
+      Object {
+        "x": 846,
+        "y": 355,
+      },
+    ],
+    "locale": undefined,
+    "text": "AUG",
+  },
+  Object {
+    "bounding": Object {
+      "height": 23,
+      "left": 43,
+      "top": 313,
+      "width": 80,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 43,
+        "y": 313,
+      },
+      Object {
+        "x": 123,
+        "y": 313,
+      },
+      Object {
+        "x": 123,
+        "y": 336,
+      },
+      Object {
+        "x": 43,
+        "y": 336,
+      },
+    ],
+    "locale": undefined,
+    "text": "OVER",
+  },
+  Object {
+    "bounding": Object {
+      "height": 23,
+      "left": 134,
+      "top": 313,
+      "width": 49,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 134,
+        "y": 313,
+      },
+      Object {
+        "x": 183,
+        "y": 313,
+      },
+      Object {
+        "x": 183,
+        "y": 336,
+      },
+      Object {
+        "x": 134,
+        "y": 336,
+      },
+    ],
+    "locale": undefined,
+    "text": "100",
+  },
+  Object {
+    "bounding": Object {
+      "height": 23,
+      "left": 194,
+      "top": 313,
+      "width": 121,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 194,
+        "y": 313,
+      },
+      Object {
+        "x": 315,
+        "y": 313,
+      },
+      Object {
+        "x": 315,
+        "y": 336,
+      },
+      Object {
+        "x": 194,
+        "y": 336,
+      },
+    ],
+    "locale": undefined,
+    "text": "ARTISTS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 25,
+      "left": 43,
+      "top": 356,
+      "width": 118,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 43,
+        "y": 356,
+      },
+      Object {
+        "x": 161,
+        "y": 356,
+      },
+      Object {
+        "x": 161,
+        "y": 381,
+      },
+      Object {
+        "x": 43,
+        "y": 381,
+      },
+    ],
+    "locale": undefined,
+    "text": "ACROSS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 25,
+      "left": 172,
+      "top": 356,
+      "width": 14,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 172,
+        "y": 356,
+      },
+      Object {
+        "x": 186,
+        "y": 356,
+      },
+      Object {
+        "x": 186,
+        "y": 381,
+      },
+      Object {
+        "x": 172,
+        "y": 381,
+      },
+    ],
+    "locale": undefined,
+    "text": "7",
+  },
+  Object {
+    "bounding": Object {
+      "height": 25,
+      "left": 197,
+      "top": 356,
+      "width": 111,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 197,
+        "y": 356,
+      },
+      Object {
+        "x": 308,
+        "y": 356,
+      },
+      Object {
+        "x": 308,
+        "y": 381,
+      },
+      Object {
+        "x": 197,
+        "y": 381,
+      },
+    ],
+    "locale": undefined,
+    "text": "STAGES",
+  },
+  Object {
+    "bounding": Object {
+      "height": 21,
+      "left": 698,
+      "top": 359,
+      "width": 36,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 698,
+        "y": 359,
+      },
+      Object {
+        "x": 734,
+        "y": 359,
+      },
+      Object {
+        "x": 734,
+        "y": 380,
+      },
+      Object {
+        "x": 698,
+        "y": 380,
+      },
+    ],
+    "locale": undefined,
+    "text": "TRENT",
+  },
+  Object {
+    "bounding": Object {
+      "height": 21,
+      "left": 739,
+      "top": 359,
+      "width": 29,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 739,
+        "y": 359,
+      },
+      Object {
+        "x": 768,
+        "y": 359,
+      },
+      Object {
+        "x": 768,
+        "y": 380,
+      },
+      Object {
+        "x": 739,
+        "y": 380,
+      },
+    ],
+    "locale": undefined,
+    "text": "PARK",
+  },
+  Object {
+    "bounding": Object {
+      "height": 21,
+      "left": 771,
+      "top": 359,
+      "width": 1,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 771,
+        "y": 359,
+      },
+      Object {
+        "x": 772,
+        "y": 359,
+      },
+      Object {
+        "x": 772,
+        "y": 380,
+      },
+      Object {
+        "x": 771,
+        "y": 380,
+      },
+    ],
+    "locale": undefined,
+    "text": ",",
+  },
+  Object {
+    "bounding": Object {
+      "height": 21,
+      "left": 777,
+      "top": 359,
+      "width": 44,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 777,
+        "y": 359,
+      },
+      Object {
+        "x": 821,
+        "y": 359,
+      },
+      Object {
+        "x": 821,
+        "y": 380,
+      },
+      Object {
+        "x": 777,
+        "y": 380,
+      },
+    ],
+    "locale": undefined,
+    "text": "LONDON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 21,
+      "left": 832,
+      "top": 359,
+      "width": 1,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 832,
+        "y": 359,
+      },
+      Object {
+        "x": 833,
+        "y": 359,
+      },
+      Object {
+        "x": 833,
+        "y": 380,
+      },
+      Object {
+        "x": 832,
+        "y": 380,
+      },
+    ],
+    "locale": undefined,
+    "text": "I",
+  },
+  Object {
+    "bounding": Object {
+      "height": 21,
+      "left": 843,
+      "top": 359,
+      "width": 8,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 843,
+        "y": 359,
+      },
+      Object {
+        "x": 851,
+        "y": 359,
+      },
+      Object {
+        "x": 851,
+        "y": 380,
+      },
+      Object {
+        "x": 843,
+        "y": 380,
+      },
+    ],
+    "locale": undefined,
+    "text": "11",
+  },
+  Object {
+    "bounding": Object {
+      "height": 21,
+      "left": 854,
+      "top": 359,
+      "width": 56,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 854,
+        "y": 359,
+      },
+      Object {
+        "x": 910,
+        "y": 359,
+      },
+      Object {
+        "x": 910,
+        "y": 380,
+      },
+      Object {
+        "x": 854,
+        "y": 380,
+      },
+    ],
+    "locale": undefined,
+    "text": "AM-10PM",
+  },
+  Object {
+    "bounding": Object {
+      "height": 47,
+      "left": 131,
+      "top": 453,
+      "width": 147,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 131,
+        "y": 453,
+      },
+      Object {
+        "x": 278,
+        "y": 453,
+      },
+      Object {
+        "x": 278,
+        "y": 500,
+      },
+      Object {
+        "x": 131,
+        "y": 500,
+      },
+    ],
+    "locale": undefined,
+    "text": "MASTERS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 47,
+      "left": 290,
+      "top": 453,
+      "width": 34,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 290,
+        "y": 453,
+      },
+      Object {
+        "x": 324,
+        "y": 453,
+      },
+      Object {
+        "x": 324,
+        "y": 500,
+      },
+      Object {
+        "x": 290,
+        "y": 500,
+      },
+    ],
+    "locale": undefined,
+    "text": "AT",
+  },
+  Object {
+    "bounding": Object {
+      "height": 47,
+      "left": 336,
+      "top": 453,
+      "width": 95,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 336,
+        "y": 453,
+      },
+      Object {
+        "x": 431,
+        "y": 453,
+      },
+      Object {
+        "x": 431,
+        "y": 500,
+      },
+      Object {
+        "x": 336,
+        "y": 500,
+      },
+    ],
+    "locale": undefined,
+    "text": "WORK",
+  },
+  Object {
+    "bounding": Object {
+      "height": 46,
+      "left": 615,
+      "top": 450,
+      "width": 81,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 615,
+        "y": 450,
+      },
+      Object {
+        "x": 696,
+        "y": 450,
+      },
+      Object {
+        "x": 696,
+        "y": 496,
+      },
+      Object {
+        "x": 615,
+        "y": 496,
+      },
+    ],
+    "locale": undefined,
+    "text": "BODY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 46,
+      "left": 708,
+      "top": 450,
+      "width": 21,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 708,
+        "y": 450,
+      },
+      Object {
+        "x": 729,
+        "y": 450,
+      },
+      Object {
+        "x": 729,
+        "y": 496,
+      },
+      Object {
+        "x": 708,
+        "y": 496,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 46,
+      "left": 742,
+      "top": 450,
+      "width": 79,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 742,
+        "y": 450,
+      },
+      Object {
+        "x": 821,
+        "y": 450,
+      },
+      Object {
+        "x": 821,
+        "y": 496,
+      },
+      Object {
+        "x": 742,
+        "y": 496,
+      },
+    ],
+    "locale": undefined,
+    "text": "SOUL",
+  },
+  Object {
+    "bounding": Object {
+      "height": 25,
+      "left": 517,
+      "top": 501,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 517,
+        "y": 501,
+      },
+      Object {
+        "x": 521,
+        "y": 501,
+      },
+      Object {
+        "x": 521,
+        "y": 526,
+      },
+      Object {
+        "x": 517,
+        "y": 526,
+      },
+    ],
+    "locale": undefined,
+    "text": "(",
+  },
+  Object {
+    "bounding": Object {
+      "height": 25,
+      "left": 524,
+      "top": 501,
+      "width": 83,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 524,
+        "y": 501,
+      },
+      Object {
+        "x": 607,
+        "y": 501,
+      },
+      Object {
+        "x": 607,
+        "y": 526,
+      },
+      Object {
+        "x": 524,
+        "y": 526,
+      },
+    ],
+    "locale": undefined,
+    "text": "FRANÇOIS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 25,
+      "left": 615,
+      "top": 501,
+      "width": 8,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 615,
+        "y": 501,
+      },
+      Object {
+        "x": 623,
+        "y": 501,
+      },
+      Object {
+        "x": 623,
+        "y": 526,
+      },
+      Object {
+        "x": 615,
+        "y": 526,
+      },
+    ],
+    "locale": undefined,
+    "text": "K",
+  },
+  Object {
+    "bounding": Object {
+      "height": 25,
+      "left": 626,
+      "top": 501,
+      "width": 3,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 626,
+        "y": 501,
+      },
+      Object {
+        "x": 629,
+        "y": 501,
+      },
+      Object {
+        "x": 629,
+        "y": 526,
+      },
+      Object {
+        "x": 626,
+        "y": 526,
+      },
+    ],
+    "locale": undefined,
+    "text": ",",
+  },
+  Object {
+    "bounding": Object {
+      "height": 25,
+      "left": 636,
+      "top": 501,
+      "width": 31,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 636,
+        "y": 501,
+      },
+      Object {
+        "x": 667,
+        "y": 501,
+      },
+      Object {
+        "x": 667,
+        "y": 526,
+      },
+      Object {
+        "x": 636,
+        "y": 526,
+      },
+    ],
+    "locale": undefined,
+    "text": "JOE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 26,
+      "left": 674,
+      "top": 500,
+      "width": 94,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 674,
+        "y": 500,
+      },
+      Object {
+        "x": 768,
+        "y": 499,
+      },
+      Object {
+        "x": 768,
+        "y": 525,
+      },
+      Object {
+        "x": 674,
+        "y": 526,
+      },
+    ],
+    "locale": undefined,
+    "text": "CLAUSSELL",
+  },
+  Object {
+    "bounding": Object {
+      "height": 25,
+      "left": 775,
+      "top": 500,
+      "width": 11,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 775,
+        "y": 500,
+      },
+      Object {
+        "x": 786,
+        "y": 500,
+      },
+      Object {
+        "x": 786,
+        "y": 525,
+      },
+      Object {
+        "x": 775,
+        "y": 525,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 25,
+      "left": 794,
+      "top": 500,
+      "width": 54,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 794,
+        "y": 500,
+      },
+      Object {
+        "x": 848,
+        "y": 500,
+      },
+      Object {
+        "x": 848,
+        "y": 525,
+      },
+      Object {
+        "x": 794,
+        "y": 525,
+      },
+    ],
+    "locale": undefined,
+    "text": "DANNY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 25,
+      "left": 856,
+      "top": 499,
+      "width": 54,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 856,
+        "y": 499,
+      },
+      Object {
+        "x": 910,
+        "y": 499,
+      },
+      Object {
+        "x": 910,
+        "y": 524,
+      },
+      Object {
+        "x": 856,
+        "y": 524,
+      },
+    ],
+    "locale": undefined,
+    "text": "KRIVIT",
+  },
+  Object {
+    "bounding": Object {
+      "height": 25,
+      "left": 912,
+      "top": 499,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 912,
+        "y": 499,
+      },
+      Object {
+        "x": 916,
+        "y": 499,
+      },
+      Object {
+        "x": 916,
+        "y": 524,
+      },
+      Object {
+        "x": 912,
+        "y": 524,
+      },
+    ],
+    "locale": undefined,
+    "text": ")",
+  },
+  Object {
+    "bounding": Object {
+      "height": 45,
+      "left": 156,
+      "top": 551,
+      "width": 125,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 156,
+        "y": 551,
+      },
+      Object {
+        "x": 281,
+        "y": 551,
+      },
+      Object {
+        "x": 281,
+        "y": 596,
+      },
+      Object {
+        "x": 156,
+        "y": 596,
+      },
+    ],
+    "locale": undefined,
+    "text": "HANNAH",
+  },
+  Object {
+    "bounding": Object {
+      "height": 45,
+      "left": 294,
+      "top": 551,
+      "width": 111,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 294,
+        "y": 551,
+      },
+      Object {
+        "x": 405,
+        "y": 551,
+      },
+      Object {
+        "x": 405,
+        "y": 596,
+      },
+      Object {
+        "x": 294,
+        "y": 596,
+      },
+    ],
+    "locale": undefined,
+    "text": "WANTS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 51,
+      "left": 590,
+      "top": 544,
+      "width": 101,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 590,
+        "y": 544,
+      },
+      Object {
+        "x": 691,
+        "y": 544,
+      },
+      Object {
+        "x": 691,
+        "y": 595,
+      },
+      Object {
+        "x": 590,
+        "y": 595,
+      },
+    ],
+    "locale": undefined,
+    "text": "ROGER",
+  },
+  Object {
+    "bounding": Object {
+      "height": 51,
+      "left": 704,
+      "top": 544,
+      "width": 143,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 704,
+        "y": 544,
+      },
+      Object {
+        "x": 847,
+        "y": 544,
+      },
+      Object {
+        "x": 847,
+        "y": 595,
+      },
+      Object {
+        "x": 704,
+        "y": 595,
+      },
+    ],
+    "locale": undefined,
+    "text": "SANCHEZ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 149,
+      "top": 604,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 149,
+        "y": 604,
+      },
+      Object {
+        "x": 153,
+        "y": 604,
+      },
+      Object {
+        "x": 153,
+        "y": 626,
+      },
+      Object {
+        "x": 149,
+        "y": 626,
+      },
+    ],
+    "locale": undefined,
+    "text": "(",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 156,
+      "top": 604,
+      "width": 66,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 156,
+        "y": 604,
+      },
+      Object {
+        "x": 222,
+        "y": 604,
+      },
+      Object {
+        "x": 222,
+        "y": 626,
+      },
+      Object {
+        "x": 156,
+        "y": 626,
+      },
+    ],
+    "locale": undefined,
+    "text": "LONDON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 231,
+      "top": 604,
+      "width": 76,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 231,
+        "y": 604,
+      },
+      Object {
+        "x": 307,
+        "y": 604,
+      },
+      Object {
+        "x": 307,
+        "y": 626,
+      },
+      Object {
+        "x": 231,
+        "y": 626,
+      },
+    ],
+    "locale": undefined,
+    "text": "FESTIVAL",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 314,
+      "top": 604,
+      "width": 91,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 314,
+        "y": 604,
+      },
+      Object {
+        "x": 405,
+        "y": 604,
+      },
+      Object {
+        "x": 405,
+        "y": 626,
+      },
+      Object {
+        "x": 314,
+        "y": 626,
+      },
+    ],
+    "locale": undefined,
+    "text": "EXCLUSIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 407,
+      "top": 604,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 407,
+        "y": 604,
+      },
+      Object {
+        "x": 411,
+        "y": 604,
+      },
+      Object {
+        "x": 411,
+        "y": 626,
+      },
+      Object {
+        "x": 407,
+        "y": 626,
+      },
+    ],
+    "locale": undefined,
+    "text": ")",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 627,
+      "top": 600,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 627,
+        "y": 600,
+      },
+      Object {
+        "x": 631,
+        "y": 600,
+      },
+      Object {
+        "x": 631,
+        "y": 622,
+      },
+      Object {
+        "x": 627,
+        "y": 622,
+      },
+    ],
+    "locale": undefined,
+    "text": "(",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 634,
+      "top": 600,
+      "width": 70,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 634,
+        "y": 600,
+      },
+      Object {
+        "x": 704,
+        "y": 600,
+      },
+      Object {
+        "x": 704,
+        "y": 622,
+      },
+      Object {
+        "x": 634,
+        "y": 622,
+      },
+    ],
+    "locale": undefined,
+    "text": "CLASSIC",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 711,
+      "top": 600,
+      "width": 55,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 711,
+        "y": 600,
+      },
+      Object {
+        "x": 766,
+        "y": 600,
+      },
+      Object {
+        "x": 766,
+        "y": 622,
+      },
+      Object {
+        "x": 711,
+        "y": 622,
+      },
+    ],
+    "locale": undefined,
+    "text": "HOUSE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 773,
+      "top": 600,
+      "width": 29,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 773,
+        "y": 600,
+      },
+      Object {
+        "x": 802,
+        "y": 600,
+      },
+      Object {
+        "x": 802,
+        "y": 622,
+      },
+      Object {
+        "x": 773,
+        "y": 622,
+      },
+    ],
+    "locale": undefined,
+    "text": "SET",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 805,
+      "top": 600,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 805,
+        "y": 600,
+      },
+      Object {
+        "x": 809,
+        "y": 600,
+      },
+      Object {
+        "x": 809,
+        "y": 622,
+      },
+      Object {
+        "x": 805,
+        "y": 622,
+      },
+    ],
+    "locale": undefined,
+    "text": ")",
+  },
+  Object {
+    "bounding": Object {
+      "height": 46,
+      "left": 173,
+      "top": 651,
+      "width": 87,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 173,
+        "y": 651,
+      },
+      Object {
+        "x": 260,
+        "y": 651,
+      },
+      Object {
+        "x": 260,
+        "y": 697,
+      },
+      Object {
+        "x": 173,
+        "y": 697,
+      },
+    ],
+    "locale": undefined,
+    "text": "MARK",
+  },
+  Object {
+    "bounding": Object {
+      "height": 46,
+      "left": 272,
+      "top": 651,
+      "width": 116,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 272,
+        "y": 651,
+      },
+      Object {
+        "x": 388,
+        "y": 651,
+      },
+      Object {
+        "x": 388,
+        "y": 697,
+      },
+      Object {
+        "x": 272,
+        "y": 697,
+      },
+    ],
+    "locale": undefined,
+    "text": "KNIGHT",
+  },
+  Object {
+    "bounding": Object {
+      "height": 46,
+      "left": 556,
+      "top": 647,
+      "width": 121,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 556,
+        "y": 647,
+      },
+      Object {
+        "x": 677,
+        "y": 647,
+      },
+      Object {
+        "x": 677,
+        "y": 693,
+      },
+      Object {
+        "x": 556,
+        "y": 693,
+      },
+    ],
+    "locale": undefined,
+    "text": "DIMITRI",
+  },
+  Object {
+    "bounding": Object {
+      "height": 46,
+      "left": 691,
+      "top": 647,
+      "width": 85,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 691,
+        "y": 647,
+      },
+      Object {
+        "x": 776,
+        "y": 647,
+      },
+      Object {
+        "x": 776,
+        "y": 693,
+      },
+      Object {
+        "x": 691,
+        "y": 693,
+      },
+    ],
+    "locale": undefined,
+    "text": "FROM",
+  },
+  Object {
+    "bounding": Object {
+      "height": 46,
+      "left": 790,
+      "top": 647,
+      "width": 90,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 790,
+        "y": 647,
+      },
+      Object {
+        "x": 880,
+        "y": 647,
+      },
+      Object {
+        "x": 880,
+        "y": 693,
+      },
+      Object {
+        "x": 790,
+        "y": 693,
+      },
+    ],
+    "locale": undefined,
+    "text": "PARIS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 209,
+      "top": 704,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 209,
+        "y": 704,
+      },
+      Object {
+        "x": 213,
+        "y": 704,
+      },
+      Object {
+        "x": 213,
+        "y": 726,
+      },
+      Object {
+        "x": 209,
+        "y": 726,
+      },
+    ],
+    "locale": undefined,
+    "text": "(",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 216,
+      "top": 704,
+      "width": 69,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 216,
+        "y": 704,
+      },
+      Object {
+        "x": 285,
+        "y": 704,
+      },
+      Object {
+        "x": 285,
+        "y": 726,
+      },
+      Object {
+        "x": 216,
+        "y": 726,
+      },
+    ],
+    "locale": undefined,
+    "text": "SPECIAL",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 292,
+      "top": 704,
+      "width": 53,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 292,
+        "y": 704,
+      },
+      Object {
+        "x": 345,
+        "y": 704,
+      },
+      Object {
+        "x": 345,
+        "y": 726,
+      },
+      Object {
+        "x": 292,
+        "y": 726,
+      },
+    ],
+    "locale": undefined,
+    "text": "GUEST",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 347,
+      "top": 704,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 347,
+        "y": 704,
+      },
+      Object {
+        "x": 351,
+        "y": 704,
+      },
+      Object {
+        "x": 351,
+        "y": 726,
+      },
+      Object {
+        "x": 347,
+        "y": 726,
+      },
+    ],
+    "locale": undefined,
+    "text": ")",
+  },
+  Object {
+    "bounding": Object {
+      "height": 21,
+      "left": 647,
+      "top": 700,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 647,
+        "y": 700,
+      },
+      Object {
+        "x": 651,
+        "y": 700,
+      },
+      Object {
+        "x": 651,
+        "y": 721,
+      },
+      Object {
+        "x": 647,
+        "y": 721,
+      },
+    ],
+    "locale": undefined,
+    "text": "(",
+  },
+  Object {
+    "bounding": Object {
+      "height": 21,
+      "left": 654,
+      "top": 700,
+      "width": 68,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 654,
+        "y": 700,
+      },
+      Object {
+        "x": 722,
+        "y": 700,
+      },
+      Object {
+        "x": 722,
+        "y": 721,
+      },
+      Object {
+        "x": 654,
+        "y": 721,
+      },
+    ],
+    "locale": undefined,
+    "text": "SPECIAL",
+  },
+  Object {
+    "bounding": Object {
+      "height": 21,
+      "left": 730,
+      "top": 700,
+      "width": 52,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 730,
+        "y": 700,
+      },
+      Object {
+        "x": 782,
+        "y": 700,
+      },
+      Object {
+        "x": 782,
+        "y": 721,
+      },
+      Object {
+        "x": 730,
+        "y": 721,
+      },
+    ],
+    "locale": undefined,
+    "text": "GUEST",
+  },
+  Object {
+    "bounding": Object {
+      "height": 21,
+      "left": 785,
+      "top": 700,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 785,
+        "y": 700,
+      },
+      Object {
+        "x": 789,
+        "y": 700,
+      },
+      Object {
+        "x": 789,
+        "y": 721,
+      },
+      Object {
+        "x": 785,
+        "y": 721,
+      },
+    ],
+    "locale": undefined,
+    "text": ")",
+  },
+  Object {
+    "bounding": Object {
+      "height": 11,
+      "left": 72,
+      "top": 748,
+      "width": 2,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 72,
+        "y": 748,
+      },
+      Object {
+        "x": 74,
+        "y": 748,
+      },
+      Object {
+        "x": 74,
+        "y": 759,
+      },
+      Object {
+        "x": 72,
+        "y": 759,
+      },
+    ],
+    "locale": undefined,
+    "text": "A",
+  },
+  Object {
+    "bounding": Object {
+      "height": 11,
+      "left": 79,
+      "top": 748,
+      "width": 2,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 79,
+        "y": 748,
+      },
+      Object {
+        "x": 81,
+        "y": 748,
+      },
+      Object {
+        "x": 81,
+        "y": 759,
+      },
+      Object {
+        "x": 79,
+        "y": 759,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 11,
+      "left": 84,
+      "top": 748,
+      "width": 2,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 84,
+        "y": 748,
+      },
+      Object {
+        "x": 86,
+        "y": 748,
+      },
+      Object {
+        "x": 86,
+        "y": 759,
+      },
+      Object {
+        "x": 84,
+        "y": 759,
+      },
+    ],
+    "locale": undefined,
+    "text": "Z",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 70,
+      "top": 767,
+      "width": 63,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 70,
+        "y": 767,
+      },
+      Object {
+        "x": 133,
+        "y": 767,
+      },
+      Object {
+        "x": 133,
+        "y": 796,
+      },
+      Object {
+        "x": 70,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "AMINE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 141,
+      "top": 767,
+      "width": 49,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 141,
+        "y": 767,
+      },
+      Object {
+        "x": 190,
+        "y": 767,
+      },
+      Object {
+        "x": 190,
+        "y": 796,
+      },
+      Object {
+        "x": 141,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "EDGE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 198,
+      "top": 767,
+      "width": 14,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 198,
+        "y": 767,
+      },
+      Object {
+        "x": 212,
+        "y": 767,
+      },
+      Object {
+        "x": 212,
+        "y": 796,
+      },
+      Object {
+        "x": 198,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 221,
+      "top": 767,
+      "width": 64,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 221,
+        "y": 767,
+      },
+      Object {
+        "x": 285,
+        "y": 767,
+      },
+      Object {
+        "x": 285,
+        "y": 796,
+      },
+      Object {
+        "x": 221,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "DANCE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 307,
+      "top": 767,
+      "width": 65,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 307,
+        "y": 767,
+      },
+      Object {
+        "x": 372,
+        "y": 767,
+      },
+      Object {
+        "x": 372,
+        "y": 796,
+      },
+      Object {
+        "x": 307,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "ANANE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 379,
+      "top": 767,
+      "width": 50,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 379,
+        "y": 767,
+      },
+      Object {
+        "x": 429,
+        "y": 767,
+      },
+      Object {
+        "x": 429,
+        "y": 796,
+      },
+      Object {
+        "x": 379,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "VEGA",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 452,
+      "top": 767,
+      "width": 92,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 452,
+        "y": 767,
+      },
+      Object {
+        "x": 544,
+        "y": 767,
+      },
+      Object {
+        "x": 544,
+        "y": 796,
+      },
+      Object {
+        "x": 452,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "BARBARA",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 553,
+      "top": 767,
+      "width": 76,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 553,
+        "y": 767,
+      },
+      Object {
+        "x": 629,
+        "y": 767,
+      },
+      Object {
+        "x": 629,
+        "y": 796,
+      },
+      Object {
+        "x": 553,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "TUCKER",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 636,
+      "top": 767,
+      "width": 10,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 636,
+        "y": 767,
+      },
+      Object {
+        "x": 646,
+        "y": 767,
+      },
+      Object {
+        "x": 646,
+        "y": 796,
+      },
+      Object {
+        "x": 636,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 652,
+      "top": 767,
+      "width": 41,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 652,
+        "y": 767,
+      },
+      Object {
+        "x": 693,
+        "y": 767,
+      },
+      Object {
+        "x": 693,
+        "y": 796,
+      },
+      Object {
+        "x": 652,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 716,
+      "top": 767,
+      "width": 65,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 716,
+        "y": 767,
+      },
+      Object {
+        "x": 781,
+        "y": 767,
+      },
+      Object {
+        "x": 781,
+        "y": 796,
+      },
+      Object {
+        "x": 716,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "BOBBY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 788,
+      "top": 767,
+      "width": 14,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 788,
+        "y": 767,
+      },
+      Object {
+        "x": 802,
+        "y": 767,
+      },
+      Object {
+        "x": 802,
+        "y": 796,
+      },
+      Object {
+        "x": 788,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 810,
+      "top": 767,
+      "width": 60,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 810,
+        "y": 767,
+      },
+      Object {
+        "x": 870,
+        "y": 767,
+      },
+      Object {
+        "x": 870,
+        "y": 796,
+      },
+      Object {
+        "x": 810,
+        "y": 796,
+      },
+    ],
+    "locale": undefined,
+    "text": "STEVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 71,
+      "top": 802,
+      "width": 78,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 71,
+        "y": 802,
+      },
+      Object {
+        "x": 149,
+        "y": 802,
+      },
+      Object {
+        "x": 149,
+        "y": 831,
+      },
+      Object {
+        "x": 71,
+        "y": 831,
+      },
+    ],
+    "locale": undefined,
+    "text": "BONTAN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 173,
+      "top": 802,
+      "width": 65,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 173,
+        "y": 802,
+      },
+      Object {
+        "x": 238,
+        "y": 802,
+      },
+      Object {
+        "x": 238,
+        "y": 831,
+      },
+      Object {
+        "x": 173,
+        "y": 831,
+      },
+    ],
+    "locale": undefined,
+    "text": "BRAND",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 247,
+      "top": 802,
+      "width": 44,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 247,
+        "y": 802,
+      },
+      Object {
+        "x": 291,
+        "y": 802,
+      },
+      Object {
+        "x": 291,
+        "y": 831,
+      },
+      Object {
+        "x": 247,
+        "y": 831,
+      },
+    ],
+    "locale": undefined,
+    "text": "NEW",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 299,
+      "top": 802,
+      "width": 82,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 299,
+        "y": 802,
+      },
+      Object {
+        "x": 381,
+        "y": 802,
+      },
+      Object {
+        "x": 381,
+        "y": 831,
+      },
+      Object {
+        "x": 299,
+        "y": 831,
+      },
+    ],
+    "locale": undefined,
+    "text": "HEAVIES",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 390,
+      "top": 802,
+      "width": 54,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 390,
+        "y": 802,
+      },
+      Object {
+        "x": 444,
+        "y": 802,
+      },
+      Object {
+        "x": 444,
+        "y": 831,
+      },
+      Object {
+        "x": 390,
+        "y": 831,
+      },
+    ],
+    "locale": undefined,
+    "text": "-LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 471,
+      "top": 802,
+      "width": 74,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 471,
+        "y": 802,
+      },
+      Object {
+        "x": 545,
+        "y": 802,
+      },
+      Object {
+        "x": 545,
+        "y": 831,
+      },
+      Object {
+        "x": 471,
+        "y": 831,
+      },
+    ],
+    "locale": undefined,
+    "text": "CHARLY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 554,
+      "top": 802,
+      "width": 63,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 554,
+        "y": 802,
+      },
+      Object {
+        "x": 617,
+        "y": 802,
+      },
+      Object {
+        "x": 617,
+        "y": 831,
+      },
+      Object {
+        "x": 554,
+        "y": 831,
+      },
+    ],
+    "locale": undefined,
+    "text": "BLACK",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 622,
+      "top": 802,
+      "width": 10,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 622,
+        "y": 802,
+      },
+      Object {
+        "x": 632,
+        "y": 802,
+      },
+      Object {
+        "x": 632,
+        "y": 831,
+      },
+      Object {
+        "x": 622,
+        "y": 831,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 639,
+      "top": 802,
+      "width": 40,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 639,
+        "y": 802,
+      },
+      Object {
+        "x": 679,
+        "y": 802,
+      },
+      Object {
+        "x": 679,
+        "y": 831,
+      },
+      Object {
+        "x": 639,
+        "y": 831,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 702,
+      "top": 802,
+      "width": 48,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 702,
+        "y": 802,
+      },
+      Object {
+        "x": 750,
+        "y": 802,
+      },
+      Object {
+        "x": 750,
+        "y": 831,
+      },
+      Object {
+        "x": 702,
+        "y": 831,
+      },
+    ],
+    "locale": undefined,
+    "text": "DAVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 759,
+      "top": 802,
+      "width": 32,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 759,
+        "y": 802,
+      },
+      Object {
+        "x": 791,
+        "y": 802,
+      },
+      Object {
+        "x": 791,
+        "y": 831,
+      },
+      Object {
+        "x": 759,
+        "y": 831,
+      },
+    ],
+    "locale": undefined,
+    "text": "LEE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 71,
+      "top": 836,
+      "width": 66,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 71,
+        "y": 836,
+      },
+      Object {
+        "x": 137,
+        "y": 836,
+      },
+      Object {
+        "x": 137,
+        "y": 868,
+      },
+      Object {
+        "x": 71,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": "DREEM",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 146,
+      "top": 836,
+      "width": 51,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 146,
+        "y": 836,
+      },
+      Object {
+        "x": 197,
+        "y": 836,
+      },
+      Object {
+        "x": 197,
+        "y": 868,
+      },
+      Object {
+        "x": 146,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": "TEEM",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 206,
+      "top": 836,
+      "width": 5,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 206,
+        "y": 836,
+      },
+      Object {
+        "x": 211,
+        "y": 836,
+      },
+      Object {
+        "x": 211,
+        "y": 868,
+      },
+      Object {
+        "x": 206,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": "(",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 215,
+      "top": 836,
+      "width": 22,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 215,
+        "y": 836,
+      },
+      Object {
+        "x": 237,
+        "y": 836,
+      },
+      Object {
+        "x": 237,
+        "y": 868,
+      },
+      Object {
+        "x": 215,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": "DJ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 246,
+      "top": 836,
+      "width": 79,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 246,
+        "y": 836,
+      },
+      Object {
+        "x": 325,
+        "y": 836,
+      },
+      Object {
+        "x": 325,
+        "y": 868,
+      },
+      Object {
+        "x": 246,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": "SPOONY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 333,
+      "top": 836,
+      "width": 14,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 333,
+        "y": 836,
+      },
+      Object {
+        "x": 347,
+        "y": 836,
+      },
+      Object {
+        "x": 347,
+        "y": 868,
+      },
+      Object {
+        "x": 333,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 355,
+      "top": 836,
+      "width": 78,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 355,
+        "y": 836,
+      },
+      Object {
+        "x": 433,
+        "y": 836,
+      },
+      Object {
+        "x": 433,
+        "y": 868,
+      },
+      Object {
+        "x": 355,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": "MIKEEB",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 437,
+      "top": 836,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 437,
+        "y": 836,
+      },
+      Object {
+        "x": 441,
+        "y": 836,
+      },
+      Object {
+        "x": 441,
+        "y": 868,
+      },
+      Object {
+        "x": 437,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": ")",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 465,
+      "top": 836,
+      "width": 113,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 465,
+        "y": 836,
+      },
+      Object {
+        "x": 578,
+        "y": 836,
+      },
+      Object {
+        "x": 578,
+        "y": 868,
+      },
+      Object {
+        "x": 465,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": "HEARTLESS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 586,
+      "top": 836,
+      "width": 57,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 586,
+        "y": 836,
+      },
+      Object {
+        "x": 643,
+        "y": 836,
+      },
+      Object {
+        "x": 643,
+        "y": 868,
+      },
+      Object {
+        "x": 586,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": "CREW",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 651,
+      "top": 836,
+      "width": 5,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 651,
+        "y": 836,
+      },
+      Object {
+        "x": 656,
+        "y": 836,
+      },
+      Object {
+        "x": 656,
+        "y": 868,
+      },
+      Object {
+        "x": 651,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": "(",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 660,
+      "top": 836,
+      "width": 75,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 660,
+        "y": 836,
+      },
+      Object {
+        "x": 735,
+        "y": 836,
+      },
+      Object {
+        "x": 735,
+        "y": 868,
+      },
+      Object {
+        "x": 660,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": "MIGHTY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 743,
+      "top": 836,
+      "width": 41,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 743,
+        "y": 836,
+      },
+      Object {
+        "x": 784,
+        "y": 836,
+      },
+      Object {
+        "x": 784,
+        "y": 868,
+      },
+      Object {
+        "x": 743,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": "MOE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 32,
+      "left": 788,
+      "top": 836,
+      "width": 3,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 788,
+        "y": 836,
+      },
+      Object {
+        "x": 791,
+        "y": 836,
+      },
+      Object {
+        "x": 791,
+        "y": 868,
+      },
+      Object {
+        "x": 788,
+        "y": 868,
+      },
+    ],
+    "locale": undefined,
+    "text": ",",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 71,
+      "top": 872,
+      "width": 87,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 71,
+        "y": 872,
+      },
+      Object {
+        "x": 158,
+        "y": 872,
+      },
+      Object {
+        "x": 158,
+        "y": 900,
+      },
+      Object {
+        "x": 71,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "BUSHKIN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 167,
+      "top": 872,
+      "width": 13,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 167,
+        "y": 872,
+      },
+      Object {
+        "x": 180,
+        "y": 872,
+      },
+      Object {
+        "x": 180,
+        "y": 900,
+      },
+      Object {
+        "x": 167,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 189,
+      "top": 872,
+      "width": 22,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 189,
+        "y": 872,
+      },
+      Object {
+        "x": 211,
+        "y": 872,
+      },
+      Object {
+        "x": 211,
+        "y": 900,
+      },
+      Object {
+        "x": 189,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "DJ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 221,
+      "top": 872,
+      "width": 56,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 221,
+        "y": 872,
+      },
+      Object {
+        "x": 277,
+        "y": 872,
+      },
+      Object {
+        "x": 277,
+        "y": 900,
+      },
+      Object {
+        "x": 221,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "FONTI",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 280,
+      "top": 872,
+      "width": 5,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 280,
+        "y": 872,
+      },
+      Object {
+        "x": 285,
+        "y": 872,
+      },
+      Object {
+        "x": 285,
+        "y": 900,
+      },
+      Object {
+        "x": 280,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": ")",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 309,
+      "top": 872,
+      "width": 65,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 309,
+        "y": 872,
+      },
+      Object {
+        "x": 374,
+        "y": 872,
+      },
+      Object {
+        "x": 374,
+        "y": 900,
+      },
+      Object {
+        "x": 309,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "HOUSE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 382,
+      "top": 872,
+      "width": 75,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 382,
+        "y": 872,
+      },
+      Object {
+        "x": 457,
+        "y": 872,
+      },
+      Object {
+        "x": 457,
+        "y": 900,
+      },
+      Object {
+        "x": 382,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "GOSPEL",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 466,
+      "top": 872,
+      "width": 59,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 466,
+        "y": 872,
+      },
+      Object {
+        "x": 525,
+        "y": 872,
+      },
+      Object {
+        "x": 525,
+        "y": 900,
+      },
+      Object {
+        "x": 466,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "CHOIR",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 532,
+      "top": 872,
+      "width": 10,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 532,
+        "y": 872,
+      },
+      Object {
+        "x": 542,
+        "y": 872,
+      },
+      Object {
+        "x": 542,
+        "y": 900,
+      },
+      Object {
+        "x": 532,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 548,
+      "top": 872,
+      "width": 41,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 548,
+        "y": 872,
+      },
+      Object {
+        "x": 589,
+        "y": 872,
+      },
+      Object {
+        "x": 589,
+        "y": 900,
+      },
+      Object {
+        "x": 548,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 612,
+      "top": 872,
+      "width": 65,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 612,
+        "y": 872,
+      },
+      Object {
+        "x": 677,
+        "y": 872,
+      },
+      Object {
+        "x": 677,
+        "y": 900,
+      },
+      Object {
+        "x": 612,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "HOUSE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 685,
+      "top": 872,
+      "width": 50,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 685,
+        "y": 872,
+      },
+      Object {
+        "x": 735,
+        "y": 872,
+      },
+      Object {
+        "x": 735,
+        "y": 900,
+      },
+      Object {
+        "x": 685,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "N'HD",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 744,
+      "top": 872,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 744,
+        "y": 872,
+      },
+      Object {
+        "x": 748,
+        "y": 872,
+      },
+      Object {
+        "x": 748,
+        "y": 900,
+      },
+      Object {
+        "x": 744,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "(",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 752,
+      "top": 872,
+      "width": 48,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 752,
+        "y": 872,
+      },
+      Object {
+        "x": 800,
+        "y": 872,
+      },
+      Object {
+        "x": 800,
+        "y": 900,
+      },
+      Object {
+        "x": 752,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "MIKE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 809,
+      "top": 872,
+      "width": 52,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 809,
+        "y": 872,
+      },
+      Object {
+        "x": 861,
+        "y": 872,
+      },
+      Object {
+        "x": 861,
+        "y": 900,
+      },
+      Object {
+        "x": 809,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "DUNN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 28,
+      "left": 870,
+      "top": 872,
+      "width": 14,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 870,
+        "y": 872,
+      },
+      Object {
+        "x": 884,
+        "y": 872,
+      },
+      Object {
+        "x": 884,
+        "y": 900,
+      },
+      Object {
+        "x": 870,
+        "y": 900,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 70,
+      "top": 905,
+      "width": 62,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 70,
+        "y": 905,
+      },
+      Object {
+        "x": 132,
+        "y": 905,
+      },
+      Object {
+        "x": 132,
+        "y": 934,
+      },
+      Object {
+        "x": 70,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": "TERRY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 141,
+      "top": 905,
+      "width": 77,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 141,
+        "y": 905,
+      },
+      Object {
+        "x": 218,
+        "y": 905,
+      },
+      Object {
+        "x": 218,
+        "y": 934,
+      },
+      Object {
+        "x": 141,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": "HUNTER",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 221,
+      "top": 905,
+      "width": 5,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 221,
+        "y": 905,
+      },
+      Object {
+        "x": 226,
+        "y": 905,
+      },
+      Object {
+        "x": 226,
+        "y": 934,
+      },
+      Object {
+        "x": 221,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": ")",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 249,
+      "top": 905,
+      "width": 69,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 249,
+        "y": 905,
+      },
+      Object {
+        "x": 318,
+        "y": 905,
+      },
+      Object {
+        "x": 318,
+        "y": 934,
+      },
+      Object {
+        "x": 249,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": "JAZZIE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 326,
+      "top": 905,
+      "width": 10,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 326,
+        "y": 905,
+      },
+      Object {
+        "x": 336,
+        "y": 905,
+      },
+      Object {
+        "x": 336,
+        "y": 934,
+      },
+      Object {
+        "x": 326,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": "B",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 342,
+      "top": 905,
+      "width": 10,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 342,
+        "y": 905,
+      },
+      Object {
+        "x": 352,
+        "y": 905,
+      },
+      Object {
+        "x": 352,
+        "y": 934,
+      },
+      Object {
+        "x": 342,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 358,
+      "top": 905,
+      "width": 37,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 358,
+        "y": 905,
+      },
+      Object {
+        "x": 395,
+        "y": 905,
+      },
+      Object {
+        "x": 395,
+        "y": 934,
+      },
+      Object {
+        "x": 358,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": "OBE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 418,
+      "top": 905,
+      "width": 85,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 418,
+        "y": 905,
+      },
+      Object {
+        "x": 503,
+        "y": 905,
+      },
+      Object {
+        "x": 503,
+        "y": 934,
+      },
+      Object {
+        "x": 418,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": "JOCELYN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 513,
+      "top": 905,
+      "width": 72,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 513,
+        "y": 905,
+      },
+      Object {
+        "x": 585,
+        "y": 905,
+      },
+      Object {
+        "x": 585,
+        "y": 934,
+      },
+      Object {
+        "x": 513,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": "BROWN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 590,
+      "top": 905,
+      "width": 10,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 590,
+        "y": 905,
+      },
+      Object {
+        "x": 600,
+        "y": 905,
+      },
+      Object {
+        "x": 600,
+        "y": 934,
+      },
+      Object {
+        "x": 590,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 606,
+      "top": 905,
+      "width": 41,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 606,
+        "y": 905,
+      },
+      Object {
+        "x": 647,
+        "y": 905,
+      },
+      Object {
+        "x": 647,
+        "y": 934,
+      },
+      Object {
+        "x": 606,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 670,
+      "top": 905,
+      "width": 52,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 670,
+        "y": 905,
+      },
+      Object {
+        "x": 722,
+        "y": 905,
+      },
+      Object {
+        "x": 722,
+        "y": 934,
+      },
+      Object {
+        "x": 670,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": "JOHN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 731,
+      "top": 905,
+      "width": 93,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 731,
+        "y": 905,
+      },
+      Object {
+        "x": 824,
+        "y": 905,
+      },
+      Object {
+        "x": 824,
+        "y": 934,
+      },
+      Object {
+        "x": 731,
+        "y": 934,
+      },
+    ],
+    "locale": undefined,
+    "text": "MORALES",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 71,
+      "top": 939,
+      "width": 97,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 71,
+        "y": 939,
+      },
+      Object {
+        "x": 168,
+        "y": 939,
+      },
+      Object {
+        "x": 168,
+        "y": 968,
+      },
+      Object {
+        "x": 71,
+        "y": 968,
+      },
+    ],
+    "locale": undefined,
+    "text": "LAURAINE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 176,
+      "top": 939,
+      "width": 104,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 176,
+        "y": 939,
+      },
+      Object {
+        "x": 280,
+        "y": 939,
+      },
+      Object {
+        "x": 280,
+        "y": 968,
+      },
+      Object {
+        "x": 176,
+        "y": 968,
+      },
+    ],
+    "locale": undefined,
+    "text": "MCINTOSH",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 289,
+      "top": 939,
+      "width": 5,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 289,
+        "y": 939,
+      },
+      Object {
+        "x": 294,
+        "y": 939,
+      },
+      Object {
+        "x": 294,
+        "y": 968,
+      },
+      Object {
+        "x": 289,
+        "y": 968,
+      },
+    ],
+    "locale": undefined,
+    "text": "(",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 297,
+      "top": 939,
+      "width": 51,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 297,
+        "y": 939,
+      },
+      Object {
+        "x": 348,
+        "y": 939,
+      },
+      Object {
+        "x": 348,
+        "y": 968,
+      },
+      Object {
+        "x": 297,
+        "y": 968,
+      },
+    ],
+    "locale": undefined,
+    "text": "COOL",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 358,
+      "top": 939,
+      "width": 59,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 358,
+        "y": 939,
+      },
+      Object {
+        "x": 417,
+        "y": 939,
+      },
+      Object {
+        "x": 417,
+        "y": 968,
+      },
+      Object {
+        "x": 358,
+        "y": 968,
+      },
+    ],
+    "locale": undefined,
+    "text": "NOTES",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 422,
+      "top": 939,
+      "width": 8,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 422,
+        "y": 939,
+      },
+      Object {
+        "x": 430,
+        "y": 939,
+      },
+      Object {
+        "x": 430,
+        "y": 968,
+      },
+      Object {
+        "x": 422,
+        "y": 968,
+      },
+    ],
+    "locale": undefined,
+    "text": ")",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 435,
+      "top": 939,
+      "width": 55,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 435,
+        "y": 939,
+      },
+      Object {
+        "x": 490,
+        "y": 939,
+      },
+      Object {
+        "x": 490,
+        "y": 968,
+      },
+      Object {
+        "x": 435,
+        "y": 968,
+      },
+    ],
+    "locale": undefined,
+    "text": "-LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 513,
+      "top": 939,
+      "width": 99,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 513,
+        "y": 939,
+      },
+      Object {
+        "x": 612,
+        "y": 939,
+      },
+      Object {
+        "x": 612,
+        "y": 968,
+      },
+      Object {
+        "x": 513,
+        "y": 968,
+      },
+    ],
+    "locale": undefined,
+    "text": "MAJESTIC",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 636,
+      "top": 939,
+      "width": 52,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 636,
+        "y": 939,
+      },
+      Object {
+        "x": 688,
+        "y": 939,
+      },
+      Object {
+        "x": 688,
+        "y": 968,
+      },
+      Object {
+        "x": 636,
+        "y": 968,
+      },
+    ],
+    "locale": undefined,
+    "text": "MATT",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 696,
+      "top": 939,
+      "width": 40,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 696,
+        "y": 939,
+      },
+      Object {
+        "x": 736,
+        "y": 939,
+      },
+      Object {
+        "x": 736,
+        "y": 968,
+      },
+      Object {
+        "x": 696,
+        "y": 968,
+      },
+    ],
+    "locale": undefined,
+    "text": "JAM",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 746,
+      "top": 939,
+      "width": 80,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 746,
+        "y": 939,
+      },
+      Object {
+        "x": 826,
+        "y": 939,
+      },
+      Object {
+        "x": 826,
+        "y": 968,
+      },
+      Object {
+        "x": 746,
+        "y": 968,
+      },
+    ],
+    "locale": undefined,
+    "text": "LAMONT",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 71,
+      "top": 973,
+      "width": 89,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 71,
+        "y": 973,
+      },
+      Object {
+        "x": 160,
+        "y": 973,
+      },
+      Object {
+        "x": 160,
+        "y": 1002,
+      },
+      Object {
+        "x": 71,
+        "y": 1002,
+      },
+    ],
+    "locale": undefined,
+    "text": "RATPACK",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 168,
+      "top": 973,
+      "width": 35,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 168,
+        "y": 973,
+      },
+      Object {
+        "x": 203,
+        "y": 973,
+      },
+      Object {
+        "x": 203,
+        "y": 1002,
+      },
+      Object {
+        "x": 168,
+        "y": 1002,
+      },
+    ],
+    "locale": undefined,
+    "text": "THE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 212,
+      "top": 973,
+      "width": 106,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 212,
+        "y": 973,
+      },
+      Object {
+        "x": 318,
+        "y": 973,
+      },
+      Object {
+        "x": 318,
+        "y": 1002,
+      },
+      Object {
+        "x": 212,
+        "y": 1002,
+      },
+    ],
+    "locale": undefined,
+    "text": "HEATWAVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 341,
+      "top": 973,
+      "width": 50,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 341,
+        "y": 973,
+      },
+      Object {
+        "x": 391,
+        "y": 973,
+      },
+      Object {
+        "x": 391,
+        "y": 1002,
+      },
+      Object {
+        "x": 341,
+        "y": 1002,
+      },
+    ],
+    "locale": undefined,
+    "text": "TODD",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 401,
+      "top": 973,
+      "width": 96,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 401,
+        "y": 973,
+      },
+      Object {
+        "x": 497,
+        "y": 973,
+      },
+      Object {
+        "x": 497,
+        "y": 1002,
+      },
+      Object {
+        "x": 401,
+        "y": 1002,
+      },
+    ],
+    "locale": undefined,
+    "text": "EDWARDS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 520,
+      "top": 973,
+      "width": 51,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 520,
+        "y": 973,
+      },
+      Object {
+        "x": 571,
+        "y": 973,
+      },
+      Object {
+        "x": 571,
+        "y": 1002,
+      },
+      Object {
+        "x": 520,
+        "y": 1002,
+      },
+    ],
+    "locale": undefined,
+    "text": "TODD",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 580,
+      "top": 973,
+      "width": 61,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 580,
+        "y": 973,
+      },
+      Object {
+        "x": 641,
+        "y": 973,
+      },
+      Object {
+        "x": 641,
+        "y": 1002,
+      },
+      Object {
+        "x": 580,
+        "y": 1002,
+      },
+    ],
+    "locale": undefined,
+    "text": "TERRY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 29,
+      "left": 663,
+      "top": 973,
+      "width": 79,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 663,
+        "y": 973,
+      },
+      Object {
+        "x": 742,
+        "y": 973,
+      },
+      Object {
+        "x": 742,
+        "y": 1002,
+      },
+      Object {
+        "x": 663,
+        "y": 1002,
+      },
+    ],
+    "locale": undefined,
+    "text": "WOOKIE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 10,
+      "left": 72,
+      "top": 1018,
+      "width": 2,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 72,
+        "y": 1018,
+      },
+      Object {
+        "x": 74,
+        "y": 1018,
+      },
+      Object {
+        "x": 74,
+        "y": 1028,
+      },
+      Object {
+        "x": 72,
+        "y": 1028,
+      },
+    ],
+    "locale": undefined,
+    "text": "A",
+  },
+  Object {
+    "bounding": Object {
+      "height": 10,
+      "left": 78,
+      "top": 1018,
+      "width": 2,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 78,
+        "y": 1018,
+      },
+      Object {
+        "x": 80,
+        "y": 1018,
+      },
+      Object {
+        "x": 80,
+        "y": 1028,
+      },
+      Object {
+        "x": 78,
+        "y": 1028,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 10,
+      "left": 84,
+      "top": 1018,
+      "width": 2,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 84,
+        "y": 1018,
+      },
+      Object {
+        "x": 86,
+        "y": 1018,
+      },
+      Object {
+        "x": 86,
+        "y": 1028,
+      },
+      Object {
+        "x": 84,
+        "y": 1028,
+      },
+    ],
+    "locale": undefined,
+    "text": "Z",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 70,
+      "top": 1035,
+      "width": 37,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 70,
+        "y": 1035,
+      },
+      Object {
+        "x": 107,
+        "y": 1035,
+      },
+      Object {
+        "x": 107,
+        "y": 1053,
+      },
+      Object {
+        "x": 70,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "AITCH",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 112,
+      "top": 1035,
+      "width": 7,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 112,
+        "y": 1035,
+      },
+      Object {
+        "x": 119,
+        "y": 1035,
+      },
+      Object {
+        "x": 119,
+        "y": 1053,
+      },
+      Object {
+        "x": 112,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "B",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 124,
+      "top": 1035,
+      "width": 9,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 124,
+        "y": 1035,
+      },
+      Object {
+        "x": 133,
+        "y": 1035,
+      },
+      Object {
+        "x": 133,
+        "y": 1053,
+      },
+      Object {
+        "x": 124,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 138,
+      "top": 1035,
+      "width": 47,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 138,
+        "y": 1035,
+      },
+      Object {
+        "x": 185,
+        "y": 1035,
+      },
+      Object {
+        "x": 185,
+        "y": 1053,
+      },
+      Object {
+        "x": 138,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "JAZZIQ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 200,
+      "top": 1035,
+      "width": 31,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 200,
+        "y": 1035,
+      },
+      Object {
+        "x": 231,
+        "y": 1035,
+      },
+      Object {
+        "x": 231,
+        "y": 1053,
+      },
+      Object {
+        "x": 200,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "ALAN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 237,
+      "top": 1035,
+      "width": 50,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 237,
+        "y": 1035,
+      },
+      Object {
+        "x": 287,
+        "y": 1035,
+      },
+      Object {
+        "x": 287,
+        "y": 1053,
+      },
+      Object {
+        "x": 237,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "BURTON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 302,
+      "top": 1035,
+      "width": 40,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 302,
+        "y": 1035,
+      },
+      Object {
+        "x": 342,
+        "y": 1035,
+      },
+      Object {
+        "x": 342,
+        "y": 1053,
+      },
+      Object {
+        "x": 302,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "ALICAI",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 347,
+      "top": 1035,
+      "width": 48,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 347,
+        "y": 1035,
+      },
+      Object {
+        "x": 395,
+        "y": 1035,
+      },
+      Object {
+        "x": 395,
+        "y": 1053,
+      },
+      Object {
+        "x": 347,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "HARLEY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 398,
+      "top": 1035,
+      "width": 7,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 398,
+        "y": 1035,
+      },
+      Object {
+        "x": 405,
+        "y": 1035,
+      },
+      Object {
+        "x": 405,
+        "y": 1053,
+      },
+      Object {
+        "x": 398,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 409,
+      "top": 1035,
+      "width": 25,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 409,
+        "y": 1035,
+      },
+      Object {
+        "x": 434,
+        "y": 1035,
+      },
+      Object {
+        "x": 434,
+        "y": 1053,
+      },
+      Object {
+        "x": 409,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 448,
+      "top": 1035,
+      "width": 46,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 448,
+        "y": 1035,
+      },
+      Object {
+        "x": 494,
+        "y": 1035,
+      },
+      Object {
+        "x": 494,
+        "y": 1053,
+      },
+      Object {
+        "x": 448,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "ALISON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 500,
+      "top": 1035,
+      "width": 59,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 500,
+        "y": 1035,
+      },
+      Object {
+        "x": 559,
+        "y": 1035,
+      },
+      Object {
+        "x": 559,
+        "y": 1053,
+      },
+      Object {
+        "x": 500,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIMERICK",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 564,
+      "top": 1035,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 564,
+        "y": 1035,
+      },
+      Object {
+        "x": 570,
+        "y": 1035,
+      },
+      Object {
+        "x": 570,
+        "y": 1053,
+      },
+      Object {
+        "x": 564,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 574,
+      "top": 1035,
+      "width": 25,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 574,
+        "y": 1035,
+      },
+      Object {
+        "x": 599,
+        "y": 1035,
+      },
+      Object {
+        "x": 599,
+        "y": 1053,
+      },
+      Object {
+        "x": 574,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 614,
+      "top": 1035,
+      "width": 39,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 614,
+        "y": 1035,
+      },
+      Object {
+        "x": 653,
+        "y": 1035,
+      },
+      Object {
+        "x": 653,
+        "y": 1053,
+      },
+      Object {
+        "x": 614,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "BIZZIE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 659,
+      "top": 1035,
+      "width": 39,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 659,
+        "y": 1035,
+      },
+      Object {
+        "x": 698,
+        "y": 1035,
+      },
+      Object {
+        "x": 698,
+        "y": 1053,
+      },
+      Object {
+        "x": 659,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "PARTY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 702,
+      "top": 1035,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 702,
+        "y": 1035,
+      },
+      Object {
+        "x": 708,
+        "y": 1035,
+      },
+      Object {
+        "x": 708,
+        "y": 1053,
+      },
+      Object {
+        "x": 702,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 712,
+      "top": 1035,
+      "width": 25,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 712,
+        "y": 1035,
+      },
+      Object {
+        "x": 737,
+        "y": 1035,
+      },
+      Object {
+        "x": 737,
+        "y": 1053,
+      },
+      Object {
+        "x": 712,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 752,
+      "top": 1035,
+      "width": 66,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 752,
+        "y": 1035,
+      },
+      Object {
+        "x": 818,
+        "y": 1035,
+      },
+      Object {
+        "x": 818,
+        "y": 1053,
+      },
+      Object {
+        "x": 752,
+        "y": 1053,
+      },
+    ],
+    "locale": undefined,
+    "text": "CHAMPAIN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 70,
+      "top": 1059,
+      "width": 31,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 70,
+        "y": 1059,
+      },
+      Object {
+        "x": 101,
+        "y": 1059,
+      },
+      Object {
+        "x": 101,
+        "y": 1077,
+      },
+      Object {
+        "x": 70,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "CHEY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 107,
+      "top": 1059,
+      "width": 54,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 107,
+        "y": 1059,
+      },
+      Object {
+        "x": 161,
+        "y": 1059,
+      },
+      Object {
+        "x": 161,
+        "y": 1077,
+      },
+      Object {
+        "x": 107,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "SELECTA",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 175,
+      "top": 1059,
+      "width": 52,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 175,
+        "y": 1059,
+      },
+      Object {
+        "x": 227,
+        "y": 1059,
+      },
+      Object {
+        "x": 227,
+        "y": 1077,
+      },
+      Object {
+        "x": 175,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "CLARKIE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 242,
+      "top": 1059,
+      "width": 36,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 242,
+        "y": 1059,
+      },
+      Object {
+        "x": 278,
+        "y": 1059,
+      },
+      Object {
+        "x": 278,
+        "y": 1077,
+      },
+      Object {
+        "x": 242,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "COLIN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 284,
+      "top": 1059,
+      "width": 30,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 284,
+        "y": 1059,
+      },
+      Object {
+        "x": 314,
+        "y": 1059,
+      },
+      Object {
+        "x": 314,
+        "y": 1077,
+      },
+      Object {
+        "x": 284,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "DALE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 329,
+      "top": 1059,
+      "width": 36,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 329,
+        "y": 1059,
+      },
+      Object {
+        "x": 365,
+        "y": 1059,
+      },
+      Object {
+        "x": 365,
+        "y": 1077,
+      },
+      Object {
+        "x": 329,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "COLIN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 371,
+      "top": 1059,
+      "width": 64,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 371,
+        "y": 1059,
+      },
+      Object {
+        "x": 435,
+        "y": 1059,
+      },
+      Object {
+        "x": 435,
+        "y": 1077,
+      },
+      Object {
+        "x": 371,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "WILLIAMS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 449,
+      "top": 1059,
+      "width": 15,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 449,
+        "y": 1059,
+      },
+      Object {
+        "x": 464,
+        "y": 1059,
+      },
+      Object {
+        "x": 464,
+        "y": 1077,
+      },
+      Object {
+        "x": 449,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "DJ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 469,
+      "top": 1059,
+      "width": 39,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 469,
+        "y": 1059,
+      },
+      Object {
+        "x": 508,
+        "y": 1059,
+      },
+      Object {
+        "x": 508,
+        "y": 1077,
+      },
+      Object {
+        "x": 469,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "ALTON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 523,
+      "top": 1059,
+      "width": 14,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 523,
+        "y": 1059,
+      },
+      Object {
+        "x": 537,
+        "y": 1059,
+      },
+      Object {
+        "x": 537,
+        "y": 1077,
+      },
+      Object {
+        "x": 523,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "DJ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 543,
+      "top": 1059,
+      "width": 45,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 543,
+        "y": 1059,
+      },
+      Object {
+        "x": 588,
+        "y": 1059,
+      },
+      Object {
+        "x": 588,
+        "y": 1077,
+      },
+      Object {
+        "x": 543,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "BIGGER",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 603,
+      "top": 1059,
+      "width": 15,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 603,
+        "y": 1059,
+      },
+      Object {
+        "x": 618,
+        "y": 1059,
+      },
+      Object {
+        "x": 618,
+        "y": 1077,
+      },
+      Object {
+        "x": 603,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "DJ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 623,
+      "top": 1059,
+      "width": 51,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 623,
+        "y": 1059,
+      },
+      Object {
+        "x": 674,
+        "y": 1059,
+      },
+      Object {
+        "x": 674,
+        "y": 1077,
+      },
+      Object {
+        "x": 623,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "CHALKE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 680,
+      "top": 1059,
+      "width": 40,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 680,
+        "y": 1059,
+      },
+      Object {
+        "x": 720,
+        "y": 1059,
+      },
+      Object {
+        "x": 720,
+        "y": 1077,
+      },
+      Object {
+        "x": 680,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "WHITE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 735,
+      "top": 1059,
+      "width": 14,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 735,
+        "y": 1059,
+      },
+      Object {
+        "x": 749,
+        "y": 1059,
+      },
+      Object {
+        "x": 749,
+        "y": 1077,
+      },
+      Object {
+        "x": 735,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "DJ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 755,
+      "top": 1059,
+      "width": 45,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 755,
+        "y": 1059,
+      },
+      Object {
+        "x": 800,
+        "y": 1059,
+      },
+      Object {
+        "x": 800,
+        "y": 1077,
+      },
+      Object {
+        "x": 755,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "KIERON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 815,
+      "top": 1059,
+      "width": 15,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 815,
+        "y": 1059,
+      },
+      Object {
+        "x": 830,
+        "y": 1059,
+      },
+      Object {
+        "x": 830,
+        "y": 1077,
+      },
+      Object {
+        "x": 815,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "DJ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 836,
+      "top": 1059,
+      "width": 60,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 836,
+        "y": 1059,
+      },
+      Object {
+        "x": 896,
+        "y": 1059,
+      },
+      Object {
+        "x": 896,
+        "y": 1077,
+      },
+      Object {
+        "x": 836,
+        "y": 1077,
+      },
+    ],
+    "locale": undefined,
+    "text": "LISTENER",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 70,
+      "top": 1084,
+      "width": 15,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 70,
+        "y": 1084,
+      },
+      Object {
+        "x": 85,
+        "y": 1084,
+      },
+      Object {
+        "x": 85,
+        "y": 1102,
+      },
+      Object {
+        "x": 70,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "DJ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 91,
+      "top": 1084,
+      "width": 30,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 91,
+        "y": 1084,
+      },
+      Object {
+        "x": 121,
+        "y": 1084,
+      },
+      Object {
+        "x": 121,
+        "y": 1102,
+      },
+      Object {
+        "x": 91,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "LUST",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 126,
+      "top": 1084,
+      "width": 9,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 126,
+        "y": 1084,
+      },
+      Object {
+        "x": 135,
+        "y": 1084,
+      },
+      Object {
+        "x": 135,
+        "y": 1102,
+      },
+      Object {
+        "x": 126,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 140,
+      "top": 1084,
+      "width": 38,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 140,
+        "y": 1084,
+      },
+      Object {
+        "x": 178,
+        "y": 1084,
+      },
+      Object {
+        "x": 178,
+        "y": 1102,
+      },
+      Object {
+        "x": 140,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "STEVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 183,
+      "top": 1084,
+      "width": 62,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 183,
+        "y": 1084,
+      },
+      Object {
+        "x": 245,
+        "y": 1084,
+      },
+      Object {
+        "x": 245,
+        "y": 1102,
+      },
+      Object {
+        "x": 183,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "WAYBACK",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 250,
+      "top": 1084,
+      "width": 37,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 250,
+        "y": 1084,
+      },
+      Object {
+        "x": 287,
+        "y": 1084,
+      },
+      Object {
+        "x": 287,
+        "y": 1102,
+      },
+      Object {
+        "x": 250,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "WHEN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 302,
+      "top": 1084,
+      "width": 14,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 302,
+        "y": 1084,
+      },
+      Object {
+        "x": 316,
+        "y": 1084,
+      },
+      Object {
+        "x": 316,
+        "y": 1102,
+      },
+      Object {
+        "x": 302,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "DJ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 322,
+      "top": 1084,
+      "width": 23,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 322,
+        "y": 1084,
+      },
+      Object {
+        "x": 345,
+        "y": 1084,
+      },
+      Object {
+        "x": 345,
+        "y": 1102,
+      },
+      Object {
+        "x": 322,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "RAE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 348,
+      "top": 1084,
+      "width": 7,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 348,
+        "y": 1084,
+      },
+      Object {
+        "x": 355,
+        "y": 1084,
+      },
+      Object {
+        "x": 355,
+        "y": 1102,
+      },
+      Object {
+        "x": 348,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 359,
+      "top": 1084,
+      "width": 26,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 359,
+        "y": 1084,
+      },
+      Object {
+        "x": 385,
+        "y": 1084,
+      },
+      Object {
+        "x": 385,
+        "y": 1102,
+      },
+      Object {
+        "x": 359,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 399,
+      "top": 1084,
+      "width": 32,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 399,
+        "y": 1084,
+      },
+      Object {
+        "x": 431,
+        "y": 1084,
+      },
+      Object {
+        "x": 431,
+        "y": 1102,
+      },
+      Object {
+        "x": 399,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "ELLIE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 437,
+      "top": 1084,
+      "width": 42,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 437,
+        "y": 1084,
+      },
+      Object {
+        "x": 479,
+        "y": 1084,
+      },
+      Object {
+        "x": 479,
+        "y": 1102,
+      },
+      Object {
+        "x": 437,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "COCKS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 493,
+      "top": 1084,
+      "width": 33,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 493,
+        "y": 1084,
+      },
+      Object {
+        "x": 526,
+        "y": 1084,
+      },
+      Object {
+        "x": 526,
+        "y": 1102,
+      },
+      Object {
+        "x": 493,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "ELLIS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 532,
+      "top": 1084,
+      "width": 22,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 532,
+        "y": 1084,
+      },
+      Object {
+        "x": 554,
+        "y": 1084,
+      },
+      Object {
+        "x": 554,
+        "y": 1102,
+      },
+      Object {
+        "x": 532,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "DEE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 568,
+      "top": 1084,
+      "width": 53,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 568,
+        "y": 1084,
+      },
+      Object {
+        "x": 621,
+        "y": 1084,
+      },
+      Object {
+        "x": 621,
+        "y": 1102,
+      },
+      Object {
+        "x": 568,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "FREDDIE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 627,
+      "top": 1084,
+      "width": 23,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 627,
+        "y": 1084,
+      },
+      Object {
+        "x": 650,
+        "y": 1084,
+      },
+      Object {
+        "x": 650,
+        "y": 1102,
+      },
+      Object {
+        "x": 627,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "BAD",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 665,
+      "top": 1084,
+      "width": 58,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 665,
+        "y": 1084,
+      },
+      Object {
+        "x": 723,
+        "y": 1084,
+      },
+      Object {
+        "x": 723,
+        "y": 1102,
+      },
+      Object {
+        "x": 665,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "GROOVER",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 729,
+      "top": 1084,
+      "width": 86,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 729,
+        "y": 1084,
+      },
+      Object {
+        "x": 815,
+        "y": 1084,
+      },
+      Object {
+        "x": 815,
+        "y": 1102,
+      },
+      Object {
+        "x": 729,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "WASHINGTON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 829,
+      "top": 1084,
+      "width": 42,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 829,
+        "y": 1084,
+      },
+      Object {
+        "x": 871,
+        "y": 1084,
+      },
+      Object {
+        "x": 871,
+        "y": 1102,
+      },
+      Object {
+        "x": 829,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "HOUSE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 876,
+      "top": 1084,
+      "width": 31,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 876,
+        "y": 1084,
+      },
+      Object {
+        "x": 907,
+        "y": 1084,
+      },
+      Object {
+        "x": 907,
+        "y": 1102,
+      },
+      Object {
+        "x": 876,
+        "y": 1102,
+      },
+    ],
+    "locale": undefined,
+    "text": "POET",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 70,
+      "top": 1107,
+      "width": 33,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 70,
+        "y": 1107,
+      },
+      Object {
+        "x": 103,
+        "y": 1107,
+      },
+      Object {
+        "x": 103,
+        "y": 1125,
+      },
+      Object {
+        "x": 70,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "HUCK",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 109,
+      "top": 1107,
+      "width": 28,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 109,
+        "y": 1107,
+      },
+      Object {
+        "x": 137,
+        "y": 1107,
+      },
+      Object {
+        "x": 137,
+        "y": 1125,
+      },
+      Object {
+        "x": 109,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "FINN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 152,
+      "top": 1107,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 152,
+        "y": 1107,
+      },
+      Object {
+        "x": 158,
+        "y": 1107,
+      },
+      Object {
+        "x": 158,
+        "y": 1125,
+      },
+      Object {
+        "x": 152,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "J",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 163,
+      "top": 1107,
+      "width": 23,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 163,
+        "y": 1107,
+      },
+      Object {
+        "x": 186,
+        "y": 1107,
+      },
+      Object {
+        "x": 186,
+        "y": 1125,
+      },
+      Object {
+        "x": 163,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "KAZ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 190,
+      "top": 1107,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 190,
+        "y": 1107,
+      },
+      Object {
+        "x": 196,
+        "y": 1107,
+      },
+      Object {
+        "x": 196,
+        "y": 1125,
+      },
+      Object {
+        "x": 190,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 200,
+      "top": 1107,
+      "width": 26,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 200,
+        "y": 1107,
+      },
+      Object {
+        "x": 226,
+        "y": 1107,
+      },
+      Object {
+        "x": 226,
+        "y": 1125,
+      },
+      Object {
+        "x": 200,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 240,
+      "top": 1107,
+      "width": 58,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 240,
+        "y": 1107,
+      },
+      Object {
+        "x": 298,
+        "y": 1107,
+      },
+      Object {
+        "x": 298,
+        "y": 1125,
+      },
+      Object {
+        "x": 240,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "JAMESEY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 313,
+      "top": 1107,
+      "width": 53,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 313,
+        "y": 1107,
+      },
+      Object {
+        "x": 366,
+        "y": 1107,
+      },
+      Object {
+        "x": 366,
+        "y": 1125,
+      },
+      Object {
+        "x": 313,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "JASONH",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 381,
+      "top": 1107,
+      "width": 41,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 381,
+        "y": 1107,
+      },
+      Object {
+        "x": 422,
+        "y": 1107,
+      },
+      Object {
+        "x": 422,
+        "y": 1125,
+      },
+      Object {
+        "x": 381,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "JASON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 427,
+      "top": 1107,
+      "width": 31,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 427,
+        "y": 1107,
+      },
+      Object {
+        "x": 458,
+        "y": 1107,
+      },
+      Object {
+        "x": 458,
+        "y": 1125,
+      },
+      Object {
+        "x": 427,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "KAYE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 472,
+      "top": 1107,
+      "width": 39,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 472,
+        "y": 1107,
+      },
+      Object {
+        "x": 511,
+        "y": 1107,
+      },
+      Object {
+        "x": 511,
+        "y": 1125,
+      },
+      Object {
+        "x": 472,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "JERRY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 517,
+      "top": 1107,
+      "width": 70,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 517,
+        "y": 1107,
+      },
+      Object {
+        "x": 587,
+        "y": 1107,
+      },
+      Object {
+        "x": 587,
+        "y": 1125,
+      },
+      Object {
+        "x": 517,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "BASCOMBE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 601,
+      "top": 1107,
+      "width": 40,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 601,
+        "y": 1107,
+      },
+      Object {
+        "x": 641,
+        "y": 1107,
+      },
+      Object {
+        "x": 641,
+        "y": 1125,
+      },
+      Object {
+        "x": 601,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "JERRY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 646,
+      "top": 1107,
+      "width": 46,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 646,
+        "y": 1107,
+      },
+      Object {
+        "x": 692,
+        "y": 1107,
+      },
+      Object {
+        "x": 692,
+        "y": 1125,
+      },
+      Object {
+        "x": 646,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "RANKIN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 707,
+      "top": 1107,
+      "width": 28,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 707,
+        "y": 1107,
+      },
+      Object {
+        "x": 735,
+        "y": 1107,
+      },
+      Object {
+        "x": 735,
+        "y": 1125,
+      },
+      Object {
+        "x": 707,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "JIGS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 750,
+      "top": 1107,
+      "width": 46,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 750,
+        "y": 1107,
+      },
+      Object {
+        "x": 796,
+        "y": 1107,
+      },
+      Object {
+        "x": 796,
+        "y": 1125,
+      },
+      Object {
+        "x": 750,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "JODIAN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 802,
+      "top": 1107,
+      "width": 38,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 802,
+        "y": 1107,
+      },
+      Object {
+        "x": 840,
+        "y": 1107,
+      },
+      Object {
+        "x": 840,
+        "y": 1125,
+      },
+      Object {
+        "x": 802,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "NATTY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 844,
+      "top": 1107,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 844,
+        "y": 1107,
+      },
+      Object {
+        "x": 850,
+        "y": 1107,
+      },
+      Object {
+        "x": 850,
+        "y": 1125,
+      },
+      Object {
+        "x": 844,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 854,
+      "top": 1107,
+      "width": 26,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 854,
+        "y": 1107,
+      },
+      Object {
+        "x": 880,
+        "y": 1107,
+      },
+      Object {
+        "x": 880,
+        "y": 1125,
+      },
+      Object {
+        "x": 854,
+        "y": 1125,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 70,
+      "top": 1131,
+      "width": 47,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 70,
+        "y": 1131,
+      },
+      Object {
+        "x": 117,
+        "y": 1131,
+      },
+      Object {
+        "x": 117,
+        "y": 1149,
+      },
+      Object {
+        "x": 70,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "JUNIOR",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 122,
+      "top": 1131,
+      "width": 65,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 122,
+        "y": 1131,
+      },
+      Object {
+        "x": 187,
+        "y": 1131,
+      },
+      Object {
+        "x": 187,
+        "y": 1149,
+      },
+      Object {
+        "x": 122,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "GISCOMBE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 191,
+      "top": 1131,
+      "width": 35,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 191,
+        "y": 1131,
+      },
+      Object {
+        "x": 226,
+        "y": 1131,
+      },
+      Object {
+        "x": 226,
+        "y": 1149,
+      },
+      Object {
+        "x": 191,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "-LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 241,
+      "top": 1131,
+      "width": 35,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 241,
+        "y": 1131,
+      },
+      Object {
+        "x": 276,
+        "y": 1131,
+      },
+      Object {
+        "x": 276,
+        "y": 1149,
+      },
+      Object {
+        "x": 241,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "KEITH",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 281,
+      "top": 1131,
+      "width": 70,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 281,
+        "y": 1131,
+      },
+      Object {
+        "x": 351,
+        "y": 1131,
+      },
+      Object {
+        "x": 351,
+        "y": 1149,
+      },
+      Object {
+        "x": 281,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "THOMPSON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 356,
+      "top": 1131,
+      "width": 35,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 356,
+        "y": 1131,
+      },
+      Object {
+        "x": 391,
+        "y": 1131,
+      },
+      Object {
+        "x": 391,
+        "y": 1149,
+      },
+      Object {
+        "x": 356,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "-LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 396,
+      "top": 1131,
+      "width": 14,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 396,
+        "y": 1131,
+      },
+      Object {
+        "x": 410,
+        "y": 1131,
+      },
+      Object {
+        "x": 410,
+        "y": 1149,
+      },
+      Object {
+        "x": 396,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "PA",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 425,
+      "top": 1131,
+      "width": 30,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 425,
+        "y": 1131,
+      },
+      Object {
+        "x": 455,
+        "y": 1131,
+      },
+      Object {
+        "x": 455,
+        "y": 1149,
+      },
+      Object {
+        "x": 425,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "LADY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 460,
+      "top": 1131,
+      "width": 5,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 460,
+        "y": 1131,
+      },
+      Object {
+        "x": 465,
+        "y": 1131,
+      },
+      Object {
+        "x": 465,
+        "y": 1149,
+      },
+      Object {
+        "x": 460,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "T",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 470,
+      "top": 1131,
+      "width": 9,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 470,
+        "y": 1131,
+      },
+      Object {
+        "x": 479,
+        "y": 1131,
+      },
+      Object {
+        "x": 479,
+        "y": 1149,
+      },
+      Object {
+        "x": 470,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 485,
+      "top": 1131,
+      "width": 30,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 485,
+        "y": 1131,
+      },
+      Object {
+        "x": 515,
+        "y": 1131,
+      },
+      Object {
+        "x": 515,
+        "y": 1149,
+      },
+      Object {
+        "x": 485,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "MISS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 520,
+      "top": 1131,
+      "width": 22,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 520,
+        "y": 1131,
+      },
+      Object {
+        "x": 542,
+        "y": 1131,
+      },
+      Object {
+        "x": 542,
+        "y": 1149,
+      },
+      Object {
+        "x": 520,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "RAY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 556,
+      "top": 1131,
+      "width": 37,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 556,
+        "y": 1131,
+      },
+      Object {
+        "x": 593,
+        "y": 1131,
+      },
+      Object {
+        "x": 593,
+        "y": 1149,
+      },
+      Object {
+        "x": 556,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "LLOYD",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 599,
+      "top": 1131,
+      "width": 25,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 599,
+        "y": 1131,
+      },
+      Object {
+        "x": 624,
+        "y": 1131,
+      },
+      Object {
+        "x": 624,
+        "y": 1149,
+      },
+      Object {
+        "x": 599,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIFE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 638,
+      "top": 1131,
+      "width": 39,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 638,
+        "y": 1131,
+      },
+      Object {
+        "x": 677,
+        "y": 1131,
+      },
+      Object {
+        "x": 677,
+        "y": 1149,
+      },
+      Object {
+        "x": 638,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "LONYO",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 681,
+      "top": 1131,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 681,
+        "y": 1131,
+      },
+      Object {
+        "x": 687,
+        "y": 1131,
+      },
+      Object {
+        "x": 687,
+        "y": 1149,
+      },
+      Object {
+        "x": 681,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 691,
+      "top": 1131,
+      "width": 25,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 691,
+        "y": 1131,
+      },
+      Object {
+        "x": 716,
+        "y": 1131,
+      },
+      Object {
+        "x": 716,
+        "y": 1149,
+      },
+      Object {
+        "x": 691,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 731,
+      "top": 1131,
+      "width": 34,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 731,
+        "y": 1131,
+      },
+      Object {
+        "x": 765,
+        "y": 1131,
+      },
+      Object {
+        "x": 765,
+        "y": 1149,
+      },
+      Object {
+        "x": 731,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "MARK",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 771,
+      "top": 1131,
+      "width": 44,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 771,
+        "y": 1131,
+      },
+      Object {
+        "x": 815,
+        "y": 1131,
+      },
+      Object {
+        "x": 815,
+        "y": 1149,
+      },
+      Object {
+        "x": 771,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "FELTON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 821,
+      "top": 1131,
+      "width": 3,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 821,
+        "y": 1131,
+      },
+      Object {
+        "x": 824,
+        "y": 1131,
+      },
+      Object {
+        "x": 824,
+        "y": 1149,
+      },
+      Object {
+        "x": 821,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "(",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 826,
+      "top": 1131,
+      "width": 37,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 826,
+        "y": 1131,
+      },
+      Object {
+        "x": 863,
+        "y": 1131,
+      },
+      Object {
+        "x": 863,
+        "y": 1149,
+      },
+      Object {
+        "x": 826,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "DOLLY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 868,
+      "top": 1131,
+      "width": 59,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 868,
+        "y": 1131,
+      },
+      Object {
+        "x": 927,
+        "y": 1131,
+      },
+      Object {
+        "x": 927,
+        "y": 1149,
+      },
+      Object {
+        "x": 868,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": "ROCKERS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 929,
+      "top": 1131,
+      "width": 3,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 929,
+        "y": 1131,
+      },
+      Object {
+        "x": 932,
+        "y": 1131,
+      },
+      Object {
+        "x": 932,
+        "y": 1149,
+      },
+      Object {
+        "x": 929,
+        "y": 1149,
+      },
+    ],
+    "locale": undefined,
+    "text": ")",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 70,
+      "top": 1155,
+      "width": 36,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 70,
+        "y": 1155,
+      },
+      Object {
+        "x": 106,
+        "y": 1155,
+      },
+      Object {
+        "x": 106,
+        "y": 1174,
+      },
+      Object {
+        "x": 70,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "MARK",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 111,
+      "top": 1155,
+      "width": 58,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 111,
+        "y": 1155,
+      },
+      Object {
+        "x": 169,
+        "y": 1155,
+      },
+      Object {
+        "x": 169,
+        "y": 1174,
+      },
+      Object {
+        "x": 111,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "RADFORD",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 185,
+      "top": 1155,
+      "width": 91,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 185,
+        "y": 1155,
+      },
+      Object {
+        "x": 276,
+        "y": 1155,
+      },
+      Object {
+        "x": 276,
+        "y": 1174,
+      },
+      Object {
+        "x": 185,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "MASTERSTEPZ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 291,
+      "top": 1155,
+      "width": 33,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 291,
+        "y": 1155,
+      },
+      Object {
+        "x": 324,
+        "y": 1155,
+      },
+      Object {
+        "x": 324,
+        "y": 1174,
+      },
+      Object {
+        "x": 291,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "MATT",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 329,
+      "top": 1155,
+      "width": 40,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 329,
+        "y": 1155,
+      },
+      Object {
+        "x": 369,
+        "y": 1155,
+      },
+      Object {
+        "x": 369,
+        "y": 1174,
+      },
+      Object {
+        "x": 329,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "WHITE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 384,
+      "top": 1155,
+      "width": 18,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 384,
+        "y": 1155,
+      },
+      Object {
+        "x": 402,
+        "y": 1155,
+      },
+      Object {
+        "x": 402,
+        "y": 1174,
+      },
+      Object {
+        "x": 384,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "MC",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 406,
+      "top": 1155,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 406,
+        "y": 1155,
+      },
+      Object {
+        "x": 412,
+        "y": 1155,
+      },
+      Object {
+        "x": 412,
+        "y": 1174,
+      },
+      Object {
+        "x": 406,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 416,
+      "top": 1155,
+      "width": 47,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 416,
+        "y": 1155,
+      },
+      Object {
+        "x": 463,
+        "y": 1155,
+      },
+      Object {
+        "x": 463,
+        "y": 1174,
+      },
+      Object {
+        "x": 416,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "BLAKEY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 478,
+      "top": 1155,
+      "width": 17,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 478,
+        "y": 1155,
+      },
+      Object {
+        "x": 495,
+        "y": 1155,
+      },
+      Object {
+        "x": 495,
+        "y": 1174,
+      },
+      Object {
+        "x": 478,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "MC",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 499,
+      "top": 1155,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 499,
+        "y": 1155,
+      },
+      Object {
+        "x": 505,
+        "y": 1155,
+      },
+      Object {
+        "x": 505,
+        "y": 1174,
+      },
+      Object {
+        "x": 499,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 509,
+      "top": 1155,
+      "width": 67,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 509,
+        "y": 1155,
+      },
+      Object {
+        "x": 576,
+        "y": 1155,
+      },
+      Object {
+        "x": 576,
+        "y": 1174,
+      },
+      Object {
+        "x": 509,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "BUZZHARD",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 592,
+      "top": 1155,
+      "width": 17,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 592,
+        "y": 1155,
+      },
+      Object {
+        "x": 609,
+        "y": 1155,
+      },
+      Object {
+        "x": 609,
+        "y": 1174,
+      },
+      Object {
+        "x": 592,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "MC",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 613,
+      "top": 1155,
+      "width": 5,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 613,
+        "y": 1155,
+      },
+      Object {
+        "x": 618,
+        "y": 1155,
+      },
+      Object {
+        "x": 618,
+        "y": 1174,
+      },
+      Object {
+        "x": 613,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 622,
+      "top": 1155,
+      "width": 23,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 622,
+        "y": 1155,
+      },
+      Object {
+        "x": 645,
+        "y": 1155,
+      },
+      Object {
+        "x": 645,
+        "y": 1174,
+      },
+      Object {
+        "x": 622,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "CKP",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 661,
+      "top": 1155,
+      "width": 17,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 661,
+        "y": 1155,
+      },
+      Object {
+        "x": 678,
+        "y": 1155,
+      },
+      Object {
+        "x": 678,
+        "y": 1174,
+      },
+      Object {
+        "x": 661,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "MC",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 682,
+      "top": 1155,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 682,
+        "y": 1155,
+      },
+      Object {
+        "x": 688,
+        "y": 1155,
+      },
+      Object {
+        "x": 688,
+        "y": 1174,
+      },
+      Object {
+        "x": 682,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 692,
+      "top": 1155,
+      "width": 40,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 692,
+        "y": 1155,
+      },
+      Object {
+        "x": 732,
+        "y": 1155,
+      },
+      Object {
+        "x": 732,
+        "y": 1174,
+      },
+      Object {
+        "x": 692,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "CREED",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 747,
+      "top": 1155,
+      "width": 17,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 747,
+        "y": 1155,
+      },
+      Object {
+        "x": 764,
+        "y": 1155,
+      },
+      Object {
+        "x": 764,
+        "y": 1174,
+      },
+      Object {
+        "x": 747,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "MC",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 768,
+      "top": 1155,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 768,
+        "y": 1155,
+      },
+      Object {
+        "x": 774,
+        "y": 1155,
+      },
+      Object {
+        "x": 774,
+        "y": 1174,
+      },
+      Object {
+        "x": 768,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 779,
+      "top": 1155,
+      "width": 13,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 779,
+        "y": 1155,
+      },
+      Object {
+        "x": 792,
+        "y": 1155,
+      },
+      Object {
+        "x": 792,
+        "y": 1174,
+      },
+      Object {
+        "x": 779,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "DT",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 807,
+      "top": 1155,
+      "width": 18,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 807,
+        "y": 1155,
+      },
+      Object {
+        "x": 825,
+        "y": 1155,
+      },
+      Object {
+        "x": 825,
+        "y": 1174,
+      },
+      Object {
+        "x": 807,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "MC",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 829,
+      "top": 1155,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 829,
+        "y": 1155,
+      },
+      Object {
+        "x": 835,
+        "y": 1155,
+      },
+      Object {
+        "x": 835,
+        "y": 1174,
+      },
+      Object {
+        "x": 829,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 839,
+      "top": 1155,
+      "width": 5,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 839,
+        "y": 1155,
+      },
+      Object {
+        "x": 844,
+        "y": 1155,
+      },
+      Object {
+        "x": 844,
+        "y": 1174,
+      },
+      Object {
+        "x": 839,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "E",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 850,
+      "top": 1155,
+      "width": 22,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 850,
+        "y": 1155,
+      },
+      Object {
+        "x": 872,
+        "y": 1155,
+      },
+      Object {
+        "x": 872,
+        "y": 1174,
+      },
+      Object {
+        "x": 850,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "MIX",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 887,
+      "top": 1155,
+      "width": 17,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 887,
+        "y": 1155,
+      },
+      Object {
+        "x": 904,
+        "y": 1155,
+      },
+      Object {
+        "x": 904,
+        "y": 1174,
+      },
+      Object {
+        "x": 887,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "MC",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 908,
+      "top": 1155,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 908,
+        "y": 1155,
+      },
+      Object {
+        "x": 914,
+        "y": 1155,
+      },
+      Object {
+        "x": 914,
+        "y": 1174,
+      },
+      Object {
+        "x": 908,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 919,
+      "top": 1155,
+      "width": 18,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 919,
+        "y": 1155,
+      },
+      Object {
+        "x": 937,
+        "y": 1155,
+      },
+      Object {
+        "x": 937,
+        "y": 1174,
+      },
+      Object {
+        "x": 919,
+        "y": 1174,
+      },
+    ],
+    "locale": undefined,
+    "text": "KIE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 70,
+      "top": 1179,
+      "width": 18,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 70,
+        "y": 1179,
+      },
+      Object {
+        "x": 88,
+        "y": 1179,
+      },
+      Object {
+        "x": 88,
+        "y": 1198,
+      },
+      Object {
+        "x": 70,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "MC",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 92,
+      "top": 1179,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 92,
+        "y": 1179,
+      },
+      Object {
+        "x": 98,
+        "y": 1179,
+      },
+      Object {
+        "x": 98,
+        "y": 1198,
+      },
+      Object {
+        "x": 92,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 102,
+      "top": 1179,
+      "width": 33,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 102,
+        "y": 1179,
+      },
+      Object {
+        "x": 135,
+        "y": 1179,
+      },
+      Object {
+        "x": 135,
+        "y": 1198,
+      },
+      Object {
+        "x": 102,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "ONYX",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 140,
+      "top": 1179,
+      "width": 40,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 140,
+        "y": 1179,
+      },
+      Object {
+        "x": 180,
+        "y": 1179,
+      },
+      Object {
+        "x": 180,
+        "y": 1198,
+      },
+      Object {
+        "x": 140,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "STONE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 194,
+      "top": 1179,
+      "width": 18,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 194,
+        "y": 1179,
+      },
+      Object {
+        "x": 212,
+        "y": 1179,
+      },
+      Object {
+        "x": 212,
+        "y": 1198,
+      },
+      Object {
+        "x": 194,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "MC",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 216,
+      "top": 1179,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 216,
+        "y": 1179,
+      },
+      Object {
+        "x": 222,
+        "y": 1179,
+      },
+      Object {
+        "x": 222,
+        "y": 1198,
+      },
+      Object {
+        "x": 216,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 226,
+      "top": 1179,
+      "width": 24,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 226,
+        "y": 1179,
+      },
+      Object {
+        "x": 250,
+        "y": 1179,
+      },
+      Object {
+        "x": 250,
+        "y": 1198,
+      },
+      Object {
+        "x": 226,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "PSG",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 265,
+      "top": 1179,
+      "width": 17,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 265,
+        "y": 1179,
+      },
+      Object {
+        "x": 282,
+        "y": 1179,
+      },
+      Object {
+        "x": 282,
+        "y": 1198,
+      },
+      Object {
+        "x": 265,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "MC",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 286,
+      "top": 1179,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 286,
+        "y": 1179,
+      },
+      Object {
+        "x": 292,
+        "y": 1179,
+      },
+      Object {
+        "x": 292,
+        "y": 1198,
+      },
+      Object {
+        "x": 286,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 296,
+      "top": 1179,
+      "width": 56,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 296,
+        "y": 1179,
+      },
+      Object {
+        "x": 352,
+        "y": 1179,
+      },
+      Object {
+        "x": 352,
+        "y": 1198,
+      },
+      Object {
+        "x": 296,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "RANKING",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 367,
+      "top": 1179,
+      "width": 29,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 367,
+        "y": 1179,
+      },
+      Object {
+        "x": 396,
+        "y": 1179,
+      },
+      Object {
+        "x": 396,
+        "y": 1198,
+      },
+      Object {
+        "x": 367,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "NICO",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 401,
+      "top": 1179,
+      "width": 9,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 401,
+        "y": 1179,
+      },
+      Object {
+        "x": 410,
+        "y": 1179,
+      },
+      Object {
+        "x": 410,
+        "y": 1198,
+      },
+      Object {
+        "x": 401,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 415,
+      "top": 1179,
+      "width": 32,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 415,
+        "y": 1179,
+      },
+      Object {
+        "x": 447,
+        "y": 1179,
+      },
+      Object {
+        "x": 447,
+        "y": 1198,
+      },
+      Object {
+        "x": 415,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "DEAN",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 453,
+      "top": 1179,
+      "width": 65,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 453,
+        "y": 1179,
+      },
+      Object {
+        "x": 518,
+        "y": 1179,
+      },
+      Object {
+        "x": 518,
+        "y": 1198,
+      },
+      Object {
+        "x": 453,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "DETACHED",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 532,
+      "top": 1179,
+      "width": 47,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 532,
+        "y": 1179,
+      },
+      Object {
+        "x": 579,
+        "y": 1179,
+      },
+      Object {
+        "x": 579,
+        "y": 1198,
+      },
+      Object {
+        "x": 532,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "NORRIS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 585,
+      "top": 1179,
+      "width": 15,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 585,
+        "y": 1179,
+      },
+      Object {
+        "x": 600,
+        "y": 1179,
+      },
+      Object {
+        "x": 600,
+        "y": 1198,
+      },
+      Object {
+        "x": 585,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "DA",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 605,
+      "top": 1179,
+      "width": 33,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 605,
+        "y": 1179,
+      },
+      Object {
+        "x": 638,
+        "y": 1179,
+      },
+      Object {
+        "x": 638,
+        "y": 1198,
+      },
+      Object {
+        "x": 605,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "BOSS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 643,
+      "top": 1179,
+      "width": 69,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 643,
+        "y": 1179,
+      },
+      Object {
+        "x": 712,
+        "y": 1179,
+      },
+      Object {
+        "x": 712,
+        "y": 1198,
+      },
+      Object {
+        "x": 643,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "WINDROSS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 727,
+      "top": 1179,
+      "width": 71,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 727,
+        "y": 1179,
+      },
+      Object {
+        "x": 798,
+        "y": 1179,
+      },
+      Object {
+        "x": 798,
+        "y": 1198,
+      },
+      Object {
+        "x": 727,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "OMOTOSHO",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 812,
+      "top": 1179,
+      "width": 59,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 812,
+        "y": 1179,
+      },
+      Object {
+        "x": 871,
+        "y": 1179,
+      },
+      Object {
+        "x": 871,
+        "y": 1198,
+      },
+      Object {
+        "x": 812,
+        "y": 1198,
+      },
+    ],
+    "locale": undefined,
+    "text": "OPOLOPO",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 70,
+      "top": 1203,
+      "width": 64,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 70,
+        "y": 1203,
+      },
+      Object {
+        "x": 134,
+        "y": 1203,
+      },
+      Object {
+        "x": 134,
+        "y": 1222,
+      },
+      Object {
+        "x": 70,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "PHILGOOD",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 139,
+      "top": 1203,
+      "width": 9,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 139,
+        "y": 1203,
+      },
+      Object {
+        "x": 148,
+        "y": 1203,
+      },
+      Object {
+        "x": 148,
+        "y": 1222,
+      },
+      Object {
+        "x": 139,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 153,
+      "top": 1203,
+      "width": 26,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 153,
+        "y": 1203,
+      },
+      Object {
+        "x": 179,
+        "y": 1203,
+      },
+      Object {
+        "x": 179,
+        "y": 1222,
+      },
+      Object {
+        "x": 153,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "RAM",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 194,
+      "top": 1203,
+      "width": 41,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 194,
+        "y": 1203,
+      },
+      Object {
+        "x": 235,
+        "y": 1203,
+      },
+      Object {
+        "x": 235,
+        "y": 1222,
+      },
+      Object {
+        "x": 194,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "RANDY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 241,
+      "top": 1203,
+      "width": 65,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 241,
+        "y": 1203,
+      },
+      Object {
+        "x": 306,
+        "y": 1203,
+      },
+      Object {
+        "x": 306,
+        "y": 1222,
+      },
+      Object {
+        "x": 241,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "PETERSON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 321,
+      "top": 1203,
+      "width": 56,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 321,
+        "y": 1203,
+      },
+      Object {
+        "x": 377,
+        "y": 1203,
+      },
+      Object {
+        "x": 377,
+        "y": 1222,
+      },
+      Object {
+        "x": 321,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "RATPACK",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 392,
+      "top": 1203,
+      "width": 46,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 392,
+        "y": 1203,
+      },
+      Object {
+        "x": 438,
+        "y": 1203,
+      },
+      Object {
+        "x": 438,
+        "y": 1222,
+      },
+      Object {
+        "x": 392,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "REPLAY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 452,
+      "top": 1203,
+      "width": 43,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 452,
+        "y": 1203,
+      },
+      Object {
+        "x": 495,
+        "y": 1203,
+      },
+      Object {
+        "x": 495,
+        "y": 1222,
+      },
+      Object {
+        "x": 452,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "ROBBO",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 501,
+      "top": 1203,
+      "width": 33,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 501,
+        "y": 1203,
+      },
+      Object {
+        "x": 534,
+        "y": 1203,
+      },
+      Object {
+        "x": 534,
+        "y": 1222,
+      },
+      Object {
+        "x": 501,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "RANX",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 548,
+      "top": 1203,
+      "width": 32,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 548,
+        "y": 1203,
+      },
+      Object {
+        "x": 580,
+        "y": 1203,
+      },
+      Object {
+        "x": 580,
+        "y": 1222,
+      },
+      Object {
+        "x": 548,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "ROSE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 585,
+      "top": 1203,
+      "width": 69,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 585,
+        "y": 1203,
+      },
+      Object {
+        "x": 654,
+        "y": 1203,
+      },
+      Object {
+        "x": 654,
+        "y": 1222,
+      },
+      Object {
+        "x": 585,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "WINDROSS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 658,
+      "top": 1203,
+      "width": 7,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 658,
+        "y": 1203,
+      },
+      Object {
+        "x": 665,
+        "y": 1203,
+      },
+      Object {
+        "x": 665,
+        "y": 1222,
+      },
+      Object {
+        "x": 658,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 668,
+      "top": 1203,
+      "width": 26,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 668,
+        "y": 1203,
+      },
+      Object {
+        "x": 694,
+        "y": 1203,
+      },
+      Object {
+        "x": 694,
+        "y": 1222,
+      },
+      Object {
+        "x": 668,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 708,
+      "top": 1203,
+      "width": 46,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 708,
+        "y": 1203,
+      },
+      Object {
+        "x": 754,
+        "y": 1203,
+      },
+      Object {
+        "x": 754,
+        "y": 1222,
+      },
+      Object {
+        "x": 708,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "SAMMY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 760,
+      "top": 1203,
+      "width": 90,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 760,
+        "y": 1203,
+      },
+      Object {
+        "x": 850,
+        "y": 1203,
+      },
+      Object {
+        "x": 850,
+        "y": 1222,
+      },
+      Object {
+        "x": 760,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "CONFUNKTION",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 865,
+      "top": 1203,
+      "width": 35,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 865,
+        "y": 1203,
+      },
+      Object {
+        "x": 900,
+        "y": 1203,
+      },
+      Object {
+        "x": 900,
+        "y": 1222,
+      },
+      Object {
+        "x": 865,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "SELLY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 906,
+      "top": 1203,
+      "width": 5,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 906,
+        "y": 1203,
+      },
+      Object {
+        "x": 911,
+        "y": 1203,
+      },
+      Object {
+        "x": 911,
+        "y": 1222,
+      },
+      Object {
+        "x": 906,
+        "y": 1222,
+      },
+    ],
+    "locale": undefined,
+    "text": "J",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 70,
+      "top": 1228,
+      "width": 41,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 70,
+        "y": 1228,
+      },
+      Object {
+        "x": 111,
+        "y": 1228,
+      },
+      Object {
+        "x": 111,
+        "y": 1246,
+      },
+      Object {
+        "x": 70,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "SHOLA",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 116,
+      "top": 1228,
+      "width": 27,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 116,
+        "y": 1228,
+      },
+      Object {
+        "x": 143,
+        "y": 1228,
+      },
+      Object {
+        "x": 143,
+        "y": 1246,
+      },
+      Object {
+        "x": 116,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "AMA",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 146,
+      "top": 1228,
+      "width": 7,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 146,
+        "y": 1228,
+      },
+      Object {
+        "x": 153,
+        "y": 1228,
+      },
+      Object {
+        "x": 153,
+        "y": 1246,
+      },
+      Object {
+        "x": 146,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 156,
+      "top": 1228,
+      "width": 26,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 156,
+        "y": 1228,
+      },
+      Object {
+        "x": 182,
+        "y": 1228,
+      },
+      Object {
+        "x": 182,
+        "y": 1246,
+      },
+      Object {
+        "x": 156,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "LIVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 197,
+      "top": 1228,
+      "width": 19,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 197,
+        "y": 1228,
+      },
+      Object {
+        "x": 216,
+        "y": 1228,
+      },
+      Object {
+        "x": 216,
+        "y": 1246,
+      },
+      Object {
+        "x": 197,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "SIR",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 222,
+      "top": 1228,
+      "width": 14,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 222,
+        "y": 1228,
+      },
+      Object {
+        "x": 236,
+        "y": 1228,
+      },
+      Object {
+        "x": 236,
+        "y": 1246,
+      },
+      Object {
+        "x": 222,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "DJ",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 242,
+      "top": 1228,
+      "width": 40,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 242,
+        "y": 1228,
+      },
+      Object {
+        "x": 282,
+        "y": 1228,
+      },
+      Object {
+        "x": 282,
+        "y": 1246,
+      },
+      Object {
+        "x": 242,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "COREY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 296,
+      "top": 1228,
+      "width": 39,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 296,
+        "y": 1228,
+      },
+      Object {
+        "x": 335,
+        "y": 1228,
+      },
+      Object {
+        "x": 335,
+        "y": 1246,
+      },
+      Object {
+        "x": 296,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "STEVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 340,
+      "top": 1228,
+      "width": 82,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 340,
+        "y": 1228,
+      },
+      Object {
+        "x": 422,
+        "y": 1228,
+      },
+      Object {
+        "x": 422,
+        "y": 1246,
+      },
+      Object {
+        "x": 340,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "HARRINGTON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 437,
+      "top": 1228,
+      "width": 37,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 437,
+        "y": 1228,
+      },
+      Object {
+        "x": 474,
+        "y": 1228,
+      },
+      Object {
+        "x": 474,
+        "y": 1246,
+      },
+      Object {
+        "x": 437,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "STEVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 480,
+      "top": 1228,
+      "width": 44,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 480,
+        "y": 1228,
+      },
+      Object {
+        "x": 524,
+        "y": 1228,
+      },
+      Object {
+        "x": 524,
+        "y": 1246,
+      },
+      Object {
+        "x": 480,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "MACCA",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 538,
+      "top": 1228,
+      "width": 45,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 538,
+        "y": 1228,
+      },
+      Object {
+        "x": 583,
+        "y": 1228,
+      },
+      Object {
+        "x": 583,
+        "y": 1246,
+      },
+      Object {
+        "x": 538,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "STICKO",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 589,
+      "top": 1228,
+      "width": 31,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 589,
+        "y": 1228,
+      },
+      Object {
+        "x": 620,
+        "y": 1228,
+      },
+      Object {
+        "x": 620,
+        "y": 1246,
+      },
+      Object {
+        "x": 589,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "ZAZA",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 634,
+      "top": 1228,
+      "width": 49,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 634,
+        "y": 1228,
+      },
+      Object {
+        "x": 683,
+        "y": 1228,
+      },
+      Object {
+        "x": 683,
+        "y": 1246,
+      },
+      Object {
+        "x": 634,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "TREVOR",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 688,
+      "top": 1228,
+      "width": 32,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 688,
+        "y": 1228,
+      },
+      Object {
+        "x": 720,
+        "y": 1228,
+      },
+      Object {
+        "x": 720,
+        "y": 1246,
+      },
+      Object {
+        "x": 688,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "FUNG",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 727,
+      "top": 1228,
+      "width": 4,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 727,
+        "y": 1228,
+      },
+      Object {
+        "x": 731,
+        "y": 1228,
+      },
+      Object {
+        "x": 731,
+        "y": 1246,
+      },
+      Object {
+        "x": 727,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "&",
+  },
+  Object {
+    "bounding": Object {
+      "height": 18,
+      "left": 741,
+      "top": 1228,
+      "width": 59,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 741,
+        "y": 1228,
+      },
+      Object {
+        "x": 800,
+        "y": 1228,
+      },
+      Object {
+        "x": 800,
+        "y": 1246,
+      },
+      Object {
+        "x": 741,
+        "y": 1246,
+      },
+    ],
+    "locale": undefined,
+    "text": "TRACEEG",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 70,
+      "top": 1251,
+      "width": 45,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 70,
+        "y": 1251,
+      },
+      Object {
+        "x": 115,
+        "y": 1251,
+      },
+      Object {
+        "x": 115,
+        "y": 1270,
+      },
+      Object {
+        "x": 70,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "VICTOR",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 120,
+      "top": 1251,
+      "width": 69,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 120,
+        "y": 1251,
+      },
+      Object {
+        "x": 189,
+        "y": 1251,
+      },
+      Object {
+        "x": 189,
+        "y": 1270,
+      },
+      Object {
+        "x": 120,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "ANDERSON",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 203,
+      "top": 1251,
+      "width": 64,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 203,
+        "y": 1251,
+      },
+      Object {
+        "x": 267,
+        "y": 1251,
+      },
+      Object {
+        "x": 267,
+        "y": 1270,
+      },
+      Object {
+        "x": 203,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "VIRTUOSO",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 272,
+      "top": 1251,
+      "width": 28,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 272,
+        "y": 1251,
+      },
+      Object {
+        "x": 300,
+        "y": 1251,
+      },
+      Object {
+        "x": 300,
+        "y": 1270,
+      },
+      Object {
+        "x": 272,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "DJ'S",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 306,
+      "top": 1251,
+      "width": 2,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 306,
+        "y": 1251,
+      },
+      Object {
+        "x": 308,
+        "y": 1251,
+      },
+      Object {
+        "x": 308,
+        "y": 1270,
+      },
+      Object {
+        "x": 306,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "(",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 311,
+      "top": 1251,
+      "width": 45,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 311,
+        "y": 1251,
+      },
+      Object {
+        "x": 356,
+        "y": 1251,
+      },
+      Object {
+        "x": 356,
+        "y": 1270,
+      },
+      Object {
+        "x": 311,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "SHILOH",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 362,
+      "top": 1251,
+      "width": 2,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 362,
+        "y": 1251,
+      },
+      Object {
+        "x": 364,
+        "y": 1251,
+      },
+      Object {
+        "x": 364,
+        "y": 1270,
+      },
+      Object {
+        "x": 362,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "/",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 370,
+      "top": 1251,
+      "width": 72,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 370,
+        "y": 1251,
+      },
+      Object {
+        "x": 442,
+        "y": 1251,
+      },
+      Object {
+        "x": 442,
+        "y": 1270,
+      },
+      Object {
+        "x": 370,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "DOMINIQUE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 448,
+      "top": 1251,
+      "width": 59,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 448,
+        "y": 1251,
+      },
+      Object {
+        "x": 507,
+        "y": 1251,
+      },
+      Object {
+        "x": 507,
+        "y": 1270,
+      },
+      Object {
+        "x": 448,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "DANIELLE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 512,
+      "top": 1251,
+      "width": 3,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 512,
+        "y": 1251,
+      },
+      Object {
+        "x": 515,
+        "y": 1251,
+      },
+      Object {
+        "x": 515,
+        "y": 1270,
+      },
+      Object {
+        "x": 512,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "/",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 521,
+      "top": 1251,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 521,
+        "y": 1251,
+      },
+      Object {
+        "x": 527,
+        "y": 1251,
+      },
+      Object {
+        "x": 527,
+        "y": 1270,
+      },
+      Object {
+        "x": 521,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "Q",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 530,
+      "top": 1251,
+      "width": 3,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 530,
+        "y": 1251,
+      },
+      Object {
+        "x": 533,
+        "y": 1251,
+      },
+      Object {
+        "x": 533,
+        "y": 1270,
+      },
+      Object {
+        "x": 530,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 536,
+      "top": 1251,
+      "width": 6,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 536,
+        "y": 1251,
+      },
+      Object {
+        "x": 542,
+        "y": 1251,
+      },
+      Object {
+        "x": 542,
+        "y": 1270,
+      },
+      Object {
+        "x": 536,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "B",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 548,
+      "top": 1251,
+      "width": 3,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 548,
+        "y": 1251,
+      },
+      Object {
+        "x": 551,
+        "y": 1251,
+      },
+      Object {
+        "x": 551,
+        "y": 1270,
+      },
+      Object {
+        "x": 548,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "/",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 556,
+      "top": 1251,
+      "width": 40,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 556,
+        "y": 1251,
+      },
+      Object {
+        "x": 596,
+        "y": 1251,
+      },
+      Object {
+        "x": 596,
+        "y": 1270,
+      },
+      Object {
+        "x": 556,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "BLUSH",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 599,
+      "top": 1251,
+      "width": 3,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 599,
+        "y": 1251,
+      },
+      Object {
+        "x": 602,
+        "y": 1251,
+      },
+      Object {
+        "x": 602,
+        "y": 1270,
+      },
+      Object {
+        "x": 599,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": ")",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 616,
+      "top": 1251,
+      "width": 59,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 616,
+        "y": 1251,
+      },
+      Object {
+        "x": 675,
+        "y": 1251,
+      },
+      Object {
+        "x": 675,
+        "y": 1270,
+      },
+      Object {
+        "x": 616,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "WALLACE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 689,
+      "top": 1251,
+      "width": 35,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 689,
+        "y": 1251,
+      },
+      Object {
+        "x": 724,
+        "y": 1251,
+      },
+      Object {
+        "x": 724,
+        "y": 1270,
+      },
+      Object {
+        "x": 689,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "WOLF",
+  },
+  Object {
+    "bounding": Object {
+      "height": 19,
+      "left": 730,
+      "top": 1251,
+      "width": 37,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 730,
+        "y": 1251,
+      },
+      Object {
+        "x": 767,
+        "y": 1251,
+      },
+      Object {
+        "x": 767,
+        "y": 1270,
+      },
+      Object {
+        "x": 730,
+        "y": 1270,
+      },
+    ],
+    "locale": undefined,
+    "text": "AURIS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 21,
+      "left": 44,
+      "top": 1340,
+      "width": 338,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 44,
+        "y": 1340,
+      },
+      Object {
+        "x": 382,
+        "y": 1340,
+      },
+      Object {
+        "x": 382,
+        "y": 1361,
+      },
+      Object {
+        "x": 44,
+        "y": 1361,
+      },
+    ],
+    "locale": undefined,
+    "text": "51STSTATEFESTIVAL.COM",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 540,
+      "top": 1339,
+      "width": 76,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 540,
+        "y": 1339,
+      },
+      Object {
+        "x": 616,
+        "y": 1335,
+      },
+      Object {
+        "x": 617,
+        "y": 1357,
+      },
+      Object {
+        "x": 541,
+        "y": 1362,
+      },
+    ],
+    "locale": undefined,
+    "text": "FOUND",
+  },
+  Object {
+    "bounding": Object {
+      "height": 24,
+      "left": 637,
+      "top": 1333,
+      "width": 57,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 637,
+        "y": 1333,
+      },
+      Object {
+        "x": 694,
+        "y": 1330,
+      },
+      Object {
+        "x": 695,
+        "y": 1354,
+      },
+      Object {
+        "x": 638,
+        "y": 1357,
+      },
+    ],
+    "locale": undefined,
+    "text": "BACK",
+  },
+  Object {
+    "bounding": Object {
+      "height": 24,
+      "left": 718,
+      "top": 1328,
+      "width": 29,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 718,
+        "y": 1328,
+      },
+      Object {
+        "x": 747,
+        "y": 1326,
+      },
+      Object {
+        "x": 748,
+        "y": 1350,
+      },
+      Object {
+        "x": 719,
+        "y": 1352,
+      },
+    ],
+    "locale": undefined,
+    "text": "WE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 8,
+      "left": 495,
+      "top": 1357,
+      "width": 28,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 495,
+        "y": 1357,
+      },
+      Object {
+        "x": 523,
+        "y": 1357,
+      },
+      Object {
+        "x": 523,
+        "y": 1365,
+      },
+      Object {
+        "x": 495,
+        "y": 1365,
+      },
+    ],
+    "locale": undefined,
+    "text": "GROOVE",
+  },
+  Object {
+    "bounding": Object {
+      "height": 7,
+      "left": 493,
+      "top": 1364,
+      "width": 30,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 493,
+        "y": 1364,
+      },
+      Object {
+        "x": 523,
+        "y": 1364,
+      },
+      Object {
+        "x": 523,
+        "y": 1371,
+      },
+      Object {
+        "x": 493,
+        "y": 1371,
+      },
+    ],
+    "locale": undefined,
+    "text": "ODYSSEY",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 637,
+      "top": 1346,
+      "width": 58,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 637,
+        "y": 1346,
+      },
+      Object {
+        "x": 695,
+        "y": 1347,
+      },
+      Object {
+        "x": 695,
+        "y": 1369,
+      },
+      Object {
+        "x": 637,
+        "y": 1368,
+      },
+    ],
+    "locale": undefined,
+    "text": "TOIS",
+  },
+  Object {
+    "bounding": Object {
+      "height": 22,
+      "left": 711,
+      "top": 1347,
+      "width": 45,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 711,
+        "y": 1347,
+      },
+      Object {
+        "x": 756,
+        "y": 1348,
+      },
+      Object {
+        "x": 756,
+        "y": 1370,
+      },
+      Object {
+        "x": 711,
+        "y": 1369,
+      },
+    ],
+    "locale": undefined,
+    "text": "SOUL",
+  },
+  Object {
+    "bounding": Object {
+      "height": 15,
+      "left": 836,
+      "top": 1352,
+      "width": 29,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 836,
+        "y": 1352,
+      },
+      Object {
+        "x": 865,
+        "y": 1352,
+      },
+      Object {
+        "x": 865,
+        "y": 1367,
+      },
+      Object {
+        "x": 836,
+        "y": 1367,
+      },
+    ],
+    "locale": undefined,
+    "text": ".NET",
+  },
+]
+`;
