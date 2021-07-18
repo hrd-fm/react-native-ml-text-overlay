@@ -56,6 +56,7 @@ export interface OverlayProps {
   limit?: number
   ocrResults: MLTextOverlay[]
   onPress?: (x: { block: MLTextOverlay | Element | Line; index: number }) => void
+  onError?: (e: Error) => void
   padding?: number
 }
 const getRenderPath = (
@@ -76,6 +77,7 @@ const getRenderPath = (
 const styles = StyleSheet.create({
   wrapper: {
     flex: 1,
+    overflow: 'hidden',
   },
   layoverImageWrapper: {
     position: 'relative',
@@ -90,7 +92,6 @@ export interface CalcResult {
 interface BlockCalc extends CalcResult {
   xRatio: number
   yRatio: number
-  diffWidth: number
   diffHeight: number
 }
 const MLOverlay = ({
@@ -106,11 +107,11 @@ const MLOverlay = ({
   limit = 100,
   ocrResults,
   onPress,
+  onError,
   padding = 1,
 }: OverlayProps) => {
   const [fullSize, setFullSize] = useState<CalcResult>()
   const [rootSize, setRootSize] = useState<CalcResult>()
-  const [imageSize, setImageSize] = useState<CalcResult>()
   const [calSized, setCalSized] = useState<BlockCalc>()
   const [renderData, setRenderData] =
     useState<{ data: MLTextOverlay[] | Line[] | Element[]; animate: boolean }>()
@@ -123,39 +124,36 @@ const MLOverlay = ({
           setFullSize({ width, height, aspectRatio: width / height })
         },
         (err) => {
-          console.log(err)
+          onError && onError(err)
         }
       )
     } else {
-      const { width, height } = Image.resolveAssetSource(imageSource)
-      setFullSize({ width, height, aspectRatio: width / height })
+      try {
+        const { width, height } = Image.resolveAssetSource(imageSource)
+        setFullSize({ width, height, aspectRatio: width / height })
+      } catch (err) {
+        onError && onError(err)
+      }
     }
   }, [])
   useEffect(() => {
-    if (fullSize?.height && imageSize?.height && rootSize?.height) {
-      console.log('fullSize', { rootSize, fullSize, imageSize })
-      const diffWidth =
-        rootSize?.width - imageSize.width > 0 ? rootSize?.width - imageSize.width + padding / 2 : 1
-
-      const xRatio = imageSize.width / fullSize.width
-      const width = imageSize.width
+    if (fullSize && rootSize) {
+      const xRatio = rootSize.width / fullSize.width
+      const width = rootSize.width
       const height = fullSize.height * xRatio
       const yRatio = height / fullSize.height
-      const diffHeight = imageSize.height - height
+      const diffHeight = rootSize.height - height
       const out = {
         width,
         height,
         xRatio,
         yRatio,
         aspectRatio: width / height,
-        diffWidth,
         diffHeight,
       }
-
-      console.log('out', out)
       setCalSized(out)
     }
-  }, [rootSize, imageSize, imageSize, padding])
+  }, [rootSize, fullSize, padding])
 
   useEffect(() => {
     const getRenderData = getRenderPath(depth, ocrResults)
@@ -165,57 +163,48 @@ const MLOverlay = ({
   }, [limit, ocrResults, depth])
   return (
     <View
-      style={[
-        styles.wrapper,
-        {
-          padding,
-        },
-      ]}
       onLayout={({ nativeEvent }) => {
         const { width, height } = nativeEvent.layout
         setRootSize({ width, height, aspectRatio: width / height })
       }}
+      style={{
+        margin: padding,
+        height: calSized?.height,
+        alignSelf: 'stretch',
+      }}
     >
-      <View style={[styles.layoverImageWrapper]}>
-        <Image
-          style={[
-            {
-              flex: 1,
-              // aspectRatio: fullSize?.aspectRatio,
-              maxWidth: screenWidth - padding,
-            },
-            imageStyle,
-          ]}
-          resizeMode={'contain'}
-          source={imageSource}
-          onLayout={({ nativeEvent }) => {
-            console.log('nativeEvent', nativeEvent)
-            const { width, height } = nativeEvent.layout
-            setImageSize({ width, height, aspectRatio: width / height })
-          }}
-        />
-        {calSized &&
-          renderData?.data &&
-          mapIndexed((block, index) => {
-            const done = itemsDone.includes(index)
+      <Image
+        source={imageSource}
+        resizeMode={'cover'}
+        style={[
+          {
+            width: calSized?.width,
+            height: calSized?.height,
+          },
+          imageStyle,
+        ]}
+      />
 
-            return done && hideDone ? null : (
-              <OverlayBlock
-                block={block as MLTextOverlay}
-                index={index as number}
-                key={index}
-                size={calSized}
-                done={done}
-                blockPadding={blockPadding}
-                blockStyle={blockStyle}
-                onPress={onPress}
-                blockIcon={blockIcon}
-                animate={renderData?.animate}
-                animation={animation}
-              />
-            )
-          }, renderData?.data)}
-      </View>
+      {calSized &&
+        renderData?.data &&
+        mapIndexed((block, index) => {
+          const done = itemsDone.includes(index)
+          return done && hideDone ? null : (
+            <OverlayBlock
+              block={block as MLTextOverlay}
+              index={index as number}
+              key={index}
+              size={calSized}
+              done={done}
+              blockPadding={blockPadding}
+              blockStyle={blockStyle}
+              onPress={onPress}
+              blockIcon={blockIcon}
+              animate={renderData?.animate}
+              animation={animation}
+            />
+          )
+        }, renderData?.data)}
     </View>
   )
 }

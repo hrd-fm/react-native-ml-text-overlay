@@ -19,6 +19,7 @@ export interface OverlayBlockProps {
   block: MLTextOverlay | Element
   index: number
   blockPadding?: number
+  padding?: number
   onPress?: (x: { block: MLTextOverlay | Element | Line; index: number }) => void
   blockStyle?: ViewStyle
   done: boolean
@@ -45,14 +46,14 @@ const OverlayBlock = ({
   blockStyle,
   animation,
 }: OverlayBlockProps) => {
-  const { xRatio, yRatio, diffHeight } = size
+  const { xRatio, yRatio } = size
   if (!block?.bounding) {
-    return <View />
+    return <View></View>
   }
   const calHeight = block?.bounding?.height * xRatio + (blockPadding ? blockPadding / 2 : 0)
   const calWidth = block?.bounding?.width * yRatio + (blockPadding ? blockPadding / 2 : 0)
   const left = block?.bounding?.left * xRatio - (blockPadding ? blockPadding / 4 : 0)
-  const top = block?.bounding?.top * yRatio + diffHeight / 2 - (blockPadding ? blockPadding / 4 : 0)
+  const top = block?.bounding?.top * yRatio - (blockPadding ? blockPadding / 4 : 0)
 
   const out = (
     <View

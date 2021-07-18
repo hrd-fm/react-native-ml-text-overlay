@@ -4,6 +4,8 @@ Overlay layer for OCR / Vision results, complete with depth rendering, loading i
 
 Used internally at [Lineup](https://www.lineup.events)
 
+![How it works](https://media.giphy.com/media/3TPJu22M6Vo56Q847k/giphy.gif)
+
 ## Installation
 
 ```sh
@@ -71,6 +73,7 @@ use the converter
 ## TODO
 - [x] implement parser for Google ml kit
 - [x] implement parser for Google Cloud ML
+- [ ] implement block / paragraph parser for Cloud ML
 - [ ] implement parser for AWS Rekognition
 - [ ] implement parser for Azure Computer Vision
 
