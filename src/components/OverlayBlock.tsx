@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     position: 'relative',
   },
 })
-import type { Element, MLTextOverlay, Line } from '../'
+import type { Element, MLTextOverlay, Line, BlockCalc } from '../'
 import AnimatedView from './AnimatedView'
 export interface AnimationProps {
   type?: string
@@ -25,13 +25,7 @@ export interface OverlayBlockProps {
   done: boolean
   animate: boolean
   blockIcon?: (x: { done: boolean }) => ReactChild
-  size: {
-    xRatio: number
-    yRatio: number
-    aspectRatio: number
-    diffWidth: number
-    diffHeight: number
-  }
+  size: BlockCalc
   animation?: AnimationProps
 }
 const OverlayBlock = ({

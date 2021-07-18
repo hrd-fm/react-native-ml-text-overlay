@@ -9,7 +9,7 @@ Used internally at [Lineup](https://www.lineup.events)
 ## Installation
 
 ```sh
-yarn install react-native-ml-text-overlay
+yarn add react-native-ml-text-overlay
 ```
 
 ## Usage

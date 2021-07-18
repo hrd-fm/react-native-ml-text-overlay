@@ -74,22 +74,13 @@ const getRenderPath = (
       return ocrResults
   }
 }
-const styles = StyleSheet.create({
-  wrapper: {
-    flex: 1,
-    overflow: 'hidden',
-  },
-  layoverImageWrapper: {
-    position: 'relative',
-    flex: 1,
-  },
-})
+
 export interface CalcResult {
   width: number
   height: number
   aspectRatio: number
 }
-interface BlockCalc extends CalcResult {
+export interface BlockCalc extends CalcResult {
   xRatio: number
   yRatio: number
   diffHeight: number
