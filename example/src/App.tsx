@@ -1,19 +1,14 @@
 import React, { useCallback, useState } from 'react'
-import { Alert, SafeAreaView, StyleSheet, Text, View, Button } from 'react-native'
-import MlTextOverlay, {
-  CloudML,
-  MLTextOverlay,
-  cloudVisionToML,
-} from 'react-native-ml-text-overlay'
+import { Alert, Button, SafeAreaView, StyleSheet, Text, View } from 'react-native'
+import MlTextOverlay, { MLTextOverlay } from 'react-native-ml-text-overlay'
 import mlResults from '../fixtures/ml_results1.json'
 import { transparentColor } from './utils/colors'
 const exampleImage = require('../fixtures/friend.jpg')
 
-// use Cloud Vision API data as a source:
-// import cloudMLResponse from '../fixtures/ml_vision_cloud_results.json'
-// const response = cloudVisionToML(cloudMLResponse as CloudML, { skip: 1 })
-
-const LoaderFunc = ({ done }: { done: boolean }): JSX.Element => {
+const LoaderFunc = ({ done, error }: { done: boolean; error: boolean }): JSX.Element => {
+  const altIcon = done ? '☑️' : '❓'
+  const icon = error ? 'X' : altIcon
+  console.log('icon')
   return (
     <Text
       style={{
@@ -25,20 +20,14 @@ const LoaderFunc = ({ done }: { done: boolean }): JSX.Element => {
         backgroundColor: done ? 'transparent' : 'transparent',
       }}
     >
-      {done ? '☑️' : '❓'}
+      {icon}
     </Text>
   )
 }
 
-const blockStyle = {
-  borderColor: transparentColor('#FFFFFF', 0.5),
-  backgroundColor: transparentColor('#000000', 0.5),
-  borderWidth: 1,
-  padding: 0,
-  borderRadius: 10,
-}
 export default function App() {
   const [itemsDone, setItemsDone] = useState<number[]>([])
+  const [errorItems, setErrorItems] = useState<number[]>([])
   const [depth, setDepth] = useState<1 | 2 | 3>(1)
   const [padding, setPadding] = useState<number>(0)
   const [animation, setAnimation] = useState({})
@@ -54,13 +43,18 @@ export default function App() {
           {
             text: 'Ok',
             style: 'cancel',
+            onPress: () => setItemsDone([...itemsDone, index]),
+          },
+          {
+            text: 'Error',
+            style: 'destructive',
+            onPress: () => setErrorItems([...errorItems, index]),
           },
         ],
         {
           cancelable: true,
         }
       )
-      setItemsDone([...itemsDone, index])
     },
     [itemsDone]
   )
@@ -76,9 +70,12 @@ export default function App() {
         onPress={onPress}
         animation={animation}
         itemsDone={itemsDone}
+        itemsError={errorItems}
         blockPadding={20}
-        blockIcon={({ done }) => <LoaderFunc done={done} />}
-        blockStyle={blockStyle}
+        blockIcon={(props) => <LoaderFunc {...props} />}
+        doneStyle={styles.doneStyle}
+        blockStyle={styles.blockStyle}
+        errorStyle={styles.errorStyle}
       />
       <Text>Depth</Text>
       <View style={styles.block}>
@@ -152,5 +149,18 @@ const styles = StyleSheet.create({
   block: {
     flexDirection: 'row',
     justifyContent: 'space-evenly',
+  },
+  doneStyle: {
+    backgroundColor: transparentColor('#62f705', 0.5),
+  },
+  blockStyle: {
+    borderColor: transparentColor('#ffffff', 0.5),
+    backgroundColor: transparentColor('#000000', 0.5),
+    borderWidth: 1,
+    padding: 0,
+    borderRadius: 10,
+  },
+  errorStyle: {
+    backgroundColor: transparentColor('#ed2020', 0.5),
   },
 })

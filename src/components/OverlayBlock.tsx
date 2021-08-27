@@ -23,8 +23,9 @@ export interface OverlayBlockProps {
   onPress?: (x: { block: MLTextOverlay | Element | Line; index: number }) => void
   blockStyle?: ViewStyle
   done: boolean
+  error: boolean
   animate: boolean
-  blockIcon?: (x: { done: boolean }) => ReactChild
+  blockIcon?: (x: { done: boolean; error: boolean }) => ReactChild
   size: BlockCalc
   animation?: AnimationProps
 }
@@ -34,6 +35,7 @@ const OverlayBlock = ({
   onPress,
   blockPadding = 20,
   size,
+  error,
   blockIcon,
   done,
   animate,
@@ -77,7 +79,7 @@ const OverlayBlock = ({
         width: calWidth,
       }}
     >
-      <>{blockIcon ? blockIcon({ done }) : null}</>
+      <>{blockIcon ? blockIcon({ done, error }) : null}</>
 
       {onPress ? (
         <TouchableOpacity onPress={() => onPress({ block, index })}>{out}</TouchableOpacity>

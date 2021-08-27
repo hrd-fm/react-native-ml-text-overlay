@@ -45,7 +45,7 @@ export interface Line extends MLTextOverlay {
 
 export interface OverlayProps {
   animation?: AnimationProps
-  blockIcon?: (x: { done: boolean }) => ReactChild
+  blockIcon?: (x: { done: boolean; error: boolean }) => ReactChild
   blockPadding?: number
   blockStyle?: ViewStyle
   depth?: 1 | 2 | 3
@@ -53,7 +53,10 @@ export interface OverlayProps {
   imageSource: ImageRequireSource | ImageURISource
   imageStyle?: ImageStyle
   itemsDone?: number[]
+  itemsError?: number[]
   limit?: number
+  doneStyle?: ViewStyle
+  errorStyle?: ViewStyle
   ocrResults: MLTextOverlay[]
   onPress?: (x: { block: MLTextOverlay | Element | Line; index: number }) => void
   onError?: (e: Error) => void
@@ -91,14 +94,17 @@ const MLOverlay = ({
   blockPadding,
   blockStyle,
   depth = 1,
+  doneStyle = {},
+  errorStyle = {},
   hideDone = false,
   imageSource,
   imageStyle = {},
   itemsDone = [],
+  itemsError = [],
   limit = 100,
   ocrResults,
-  onPress,
   onError,
+  onPress,
   padding = 1,
 }: OverlayProps) => {
   const [fullSize, setFullSize] = useState<CalcResult>()
@@ -180,6 +186,9 @@ const MLOverlay = ({
         renderData?.data &&
         mapIndexed((block, index) => {
           const done = itemsDone.includes(index)
+          const ds = done ? doneStyle : {}
+          const error = itemsError.includes(index)
+          const es = error ? errorStyle : {}
           return done && hideDone ? null : (
             <OverlayBlock
               block={block as MLTextOverlay}
@@ -187,8 +196,9 @@ const MLOverlay = ({
               key={index}
               size={calSized}
               done={done}
+              error={error}
               blockPadding={blockPadding}
-              blockStyle={blockStyle}
+              blockStyle={error ? { ...blockStyle, ...es } : { ...blockStyle, ...ds }}
               onPress={onPress}
               blockIcon={blockIcon}
               animate={renderData?.animate}

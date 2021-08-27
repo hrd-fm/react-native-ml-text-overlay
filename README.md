@@ -31,14 +31,17 @@ import MlTextOverlay from 'react-native-ml-text-overlay'
 | Name      | Type |Required| default|comment
 | ----------- | ----------- | ----------- |----------- |----------- |
 | animation      | AnimationProps       |no|- | props for props, see Animations
-| blockIcon   | (x: { done: boolean }) => ReactChild        |no|-
+| blockIcon   | (x: { done: boolean, error:boolean }) => ReactChild        |no|-
 | blockPadding   | number       |no|20|Padding around each overlay block
 | blockStyle   | ViewStyle  (RN)      |no|-
 | depth   | 1 \| 2 \| 3       |no|1|decide the depth (granularity of the overlay), 1 is bigger blocks,3 is smaller (each letter), note: if over 100 blocks gets rendered animations turn off
+| doneStyle   | ViewStyle  (RN)      |no| - |style appending on blockStyle if index is contained in *itemsDone*
+| errorStyle   | ViewStyle  (RN)      |no| - |style appending on blockStyle if index is contained in *itemsError*
 | hideDone   | boolean       |no|false|hide block if index is contained in *itemsDone*
 | imageSource   | ImageStyle (RN)       |yes|-| {uri:imguri} or imported image
 | imageStyle   | ImageRequireSource \| ImageURISource       |yes|-| 
 | itemsDone   | number[]       |no|-| array of indexes for items somehow marked as done *example [1,2,3]*
+| itemsError   | number[]       |no|-| array of indexes for items somehow marked as erroneous *example [1,2,3]*
 | limit   | number       |no|-|set a render limit of blocks
 | ocrResults   | MLTextOverlay[]       |yes|-|the JSON object containing all coordinate data for rendering
 | onPress   | (x: { block: GoogleMLText \| Element \| Line; index: number }) => void       |no|-| on press Item, return type includes index and the block data
