@@ -1,33 +1,36 @@
-import React, { ReactChild } from 'react'
-import { TouchableOpacity, View, ViewStyle, StyleSheet } from 'react-native'
+import React, { ReactNode } from 'react';
+import { StyleSheet, TouchableOpacity, View, ViewStyle } from 'react-native';
+import type { BlockCalc, Element, Line, MLTextOverlayProps } from '../';
+import AnimatedView from './AnimatedView';
 
 const styles = StyleSheet.create({
   blockDefault: {
     zIndex: 2,
     position: 'relative',
   },
-})
-import type { Element, MLTextOverlay, Line, BlockCalc } from '../'
-import AnimatedView from './AnimatedView'
+});
 export interface AnimationProps {
-  type?: string
-  duration?: number
-  delay?: number
-  infinite?: boolean
+  type?: string;
+  duration?: number;
+  delay?: number;
+  infinite?: boolean;
 }
 export interface OverlayBlockProps {
-  block: MLTextOverlay | Element
-  index: number
-  blockPadding?: number
-  padding?: number
-  onPress?: (x: { block: MLTextOverlay | Element | Line; index: number }) => void
-  blockStyle?: ViewStyle
-  done: boolean
-  error: boolean
-  animate: boolean
-  blockIcon?: (x: { done: boolean; error: boolean }) => ReactChild
-  size: BlockCalc
-  animation?: AnimationProps
+  block: MLTextOverlayProps | Element;
+  index: number;
+  blockPadding?: number;
+  padding?: number;
+  onPress?: (x: {
+    block: MLTextOverlayProps | Element | Line;
+    index: number;
+  }) => void;
+  blockStyle?: ViewStyle;
+  done: boolean;
+  error: boolean;
+  animate: boolean;
+  blockIcon?: (x: { done: boolean; error: boolean }) => ReactNode;
+  size: BlockCalc;
+  animation?: AnimationProps;
 }
 const OverlayBlock = ({
   block,
@@ -42,14 +45,18 @@ const OverlayBlock = ({
   blockStyle,
   animation,
 }: OverlayBlockProps) => {
-  const { xRatio, yRatio } = size
+  const { xRatio, yRatio } = size;
   if (!block?.bounding) {
-    return <View></View>
+    return <View></View>;
   }
-  const calHeight = block?.bounding?.height * xRatio + (blockPadding ? blockPadding / 2 : 0)
-  const calWidth = block?.bounding?.width * yRatio + (blockPadding ? blockPadding / 2 : 0)
-  const left = block?.bounding?.left * xRatio - (blockPadding ? blockPadding / 4 : 0)
-  const top = block?.bounding?.top * yRatio - (blockPadding ? blockPadding / 4 : 0)
+  const calHeight =
+    block?.bounding?.height * xRatio + (blockPadding ? blockPadding / 2 : 0);
+  const calWidth =
+    block?.bounding?.width * yRatio + (blockPadding ? blockPadding / 2 : 0);
+  const left =
+    block?.bounding?.left * xRatio - (blockPadding ? blockPadding / 4 : 0);
+  const top =
+    block?.bounding?.top * yRatio - (blockPadding ? blockPadding / 4 : 0);
 
   const out = (
     <View
@@ -62,7 +69,7 @@ const OverlayBlock = ({
         blockStyle,
       ]}
     ></View>
-  )
+  );
 
   return (
     <AnimatedView
@@ -82,12 +89,14 @@ const OverlayBlock = ({
       <>{blockIcon ? blockIcon({ done, error }) : null}</>
 
       {onPress ? (
-        <TouchableOpacity onPress={() => onPress({ block, index })}>{out}</TouchableOpacity>
+        <TouchableOpacity onPress={() => onPress({ block, index })}>
+          {out}
+        </TouchableOpacity>
       ) : (
         <View>{out}</View>
       )}
     </AnimatedView>
-  )
-}
+  );
+};
 
-export default OverlayBlock
+export default OverlayBlock;
