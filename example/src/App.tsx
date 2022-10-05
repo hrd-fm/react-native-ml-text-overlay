@@ -1,14 +1,27 @@
-import React, { useCallback, useState } from 'react'
-import { Alert, Button, SafeAreaView, StyleSheet, Text, View } from 'react-native'
-import MlTextOverlay, { MLTextOverlay } from 'react-native-ml-text-overlay'
-import mlResults from '../fixtures/ml_results1.json'
-import { transparentColor } from './utils/colors'
-const exampleImage = require('../fixtures/friend.jpg')
+import React, {useCallback, useState} from 'react';
+import {
+  Alert,
+  Button,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  View,
+  Switch,
+} from 'react-native';
+import MlTextOverlay, {MLTextOverlayProps} from 'react-native-ml-text-overlay';
+import mlResults from '../fixtures/ml_results1.json';
+import {transparentColor} from './utils/colors';
+const exampleImage = require('../fixtures/friend.jpg');
 
-const LoaderFunc = ({ done, error }: { done: boolean; error: boolean }): JSX.Element => {
-  const altIcon = done ? '☑️' : '❓'
-  const icon = error ? 'X' : altIcon
-  console.log('icon')
+const LoaderFunc = ({
+  done,
+  error,
+}: {
+  done: boolean;
+  error: boolean;
+}): JSX.Element => {
+  const altIcon = done ? '☑️' : '❓';
+  const icon = error ? 'X' : altIcon;
   return (
     <Text
       style={{
@@ -18,24 +31,24 @@ const LoaderFunc = ({ done, error }: { done: boolean; error: boolean }): JSX.Ele
         top: -10,
         zIndex: 2,
         backgroundColor: done ? 'transparent' : 'transparent',
-      }}
-    >
+      }}>
       {icon}
     </Text>
-  )
-}
+  );
+};
 
 export default function App() {
-  const [itemsDone, setItemsDone] = useState<number[]>([])
-  const [errorItems, setErrorItems] = useState<number[]>([])
-  const [depth, setDepth] = useState<1 | 2 | 3>(1)
-  const [padding, setPadding] = useState<number>(0)
-  const [animation, setAnimation] = useState({})
+  const [itemsDone, setItemsDone] = useState<number[]>([]);
+  const [errorItems, setErrorItems] = useState<number[]>([]);
+  const [depth, setDepth] = useState<1 | 2 | 3>(1);
+  const [zoom, setSoom] = useState<boolean>(true);
+  const [padding, setPadding] = useState<number>(0);
+  const [animation, setAnimation] = useState({});
   const onSetAnimation = useCallback((type?: string) => {
-    setAnimation(type ? { type, duration: 2000, delay: 0, infinite: true } : {})
-  }, [])
+    setAnimation(type ? {type, duration: 2000, delay: 0, infinite: true} : {});
+  }, []);
   const onPress = useCallback(
-    ({ block: { text }, index }) => {
+    ({block: {text}, index}: {block: {text: string}; index: number}) => {
       Alert.alert(
         'Matched Text:',
         text,
@@ -53,11 +66,11 @@ export default function App() {
         ],
         {
           cancelable: true,
-        }
-      )
+        },
+      );
     },
-    [itemsDone]
-  )
+    [errorItems, itemsDone],
+  );
   return (
     <SafeAreaView style={styles.container}>
       <Text>Image:</Text>
@@ -66,13 +79,14 @@ export default function App() {
         imageSource={exampleImage}
         padding={padding}
         depth={depth}
-        ocrResults={mlResults as MLTextOverlay[]}
+        ocrResults={mlResults as MLTextOverlayProps[]}
         onPress={onPress}
+        zoom={zoom}
         animation={animation}
         itemsDone={itemsDone}
         itemsError={errorItems}
         blockPadding={20}
-        blockIcon={(props) => <LoaderFunc {...props} />}
+        blockIcon={props => <LoaderFunc {...props} />}
         doneStyle={styles.doneStyle}
         blockStyle={styles.blockStyle}
         errorStyle={styles.errorStyle}
@@ -131,8 +145,10 @@ export default function App() {
           accessibilityLabel="Learn more about this purple button"
         />
       </View>
+      <Text>Zoom</Text>
+      <Switch value={zoom} onValueChange={setSoom} />
     </SafeAreaView>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
@@ -163,4 +179,15 @@ const styles = StyleSheet.create({
   errorStyle: {
     backgroundColor: transparentColor('#ed2020', 0.5),
   },
-})
+});
+
+// const TextOverlayExample = ({}) => {
+//   return (
+//     <SafeAreaView>
+//       <MlTextOverlay />
+//       <Text>Test</Text>
+//     </SafeAreaView>
+//   );
+// };
+
+// export default TextOverlayExample;

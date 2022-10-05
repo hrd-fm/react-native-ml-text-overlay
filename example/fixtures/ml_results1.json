@@ -1,1 +1,741 @@
-[{"bounding":{"height":389,"left":436,"width":713,"top":142},"cornerPoints":[{"y":142,"x":436},{"y":142,"x":1149},{"y":531,"x":1149},{"y":531,"x":436}],"lines":[{"elements":[{"bounding":{"height":35,"left":436,"width":133,"top":142},"text":"-What","cornerPoints":[{"y":142,"x":436},{"y":142,"x":569},{"y":177,"x":569},{"y":177,"x":436}]},{"bounding":{"height":33,"left":586,"width":35,"top":142},"text":"isa","cornerPoints":[{"y":142,"x":586},{"y":142,"x":621},{"y":175,"x":621},{"y":175,"x":586}]},{"bounding":{"height":35,"left":638,"width":195,"top":142},"text":"friend?","cornerPoints":[{"y":142,"x":638},{"y":142,"x":833},{"y":177,"x":833},{"y":177,"x":638}]}],"bounding":{"top":142,"width":397,"left":436,"height":35},"cornerPoints":[{"x":436,"y":142},{"x":833,"y":142},{"x":833,"y":177},{"x":436,"y":177}],"text":"-What isa friend?"},{"elements":[{"bounding":{"height":33,"left":436,"width":117,"top":260},"text":"-How","cornerPoints":[{"y":260,"x":436},{"y":260,"x":553},{"y":293,"x":553},{"y":293,"x":436}]},{"bounding":{"height":33,"left":568,"width":55,"top":260},"text":"do","cornerPoints":[{"y":260,"x":568},{"y":260,"x":623},{"y":293,"x":623},{"y":293,"x":568}]},{"bounding":{"height":35,"left":638,"width":79,"top":266},"text":"you","cornerPoints":[{"y":266,"x":638},{"y":266,"x":717},{"y":301,"x":717},{"y":301,"x":638}]},{"bounding":{"height":39,"left":734,"width":67,"top":262},"text":"get","cornerPoints":[{"y":262,"x":734},{"y":262,"x":801},{"y":301,"x":801},{"y":301,"x":734}]},{"bounding":{"height":27,"left":818,"width":21,"top":266},"text":"a","cornerPoints":[{"y":266,"x":818},{"y":266,"x":839},{"y":293,"x":839},{"y":293,"x":818}]},{"bounding":{"height":35,"left":856,"width":155,"top":258},"text":"friend?","cornerPoints":[{"y":258,"x":856},{"y":258,"x":1011},{"y":293,"x":1011},{"y":293,"x":856}]}],"bounding":{"top":258,"width":575,"left":436,"height":43},"cornerPoints":[{"x":436,"y":258},{"x":1011,"y":258},{"x":1011,"y":301},{"x":436,"y":301}],"text":"-How do you get a friend?"},{"elements":[{"bounding":{"height":33,"left":436,"width":115,"top":380},"text":"•HOW","cornerPoints":[{"y":380,"x":436},{"y":380,"x":551},{"y":413,"x":551},{"y":413,"x":436}]},{"bounding":{"height":31,"left":568,"width":53,"top":382},"text":"do","cornerPoints":[{"y":382,"x":568},{"y":382,"x":621},{"y":413,"x":621},{"y":413,"x":568}]},{"bounding":{"height":33,"left":638,"width":77,"top":388},"text":"you","cornerPoints":[{"y":388,"x":638},{"y":388,"x":715},{"y":421,"x":715},{"y":421,"x":638}]},{"bounding":{"height":41,"left":732,"width":103,"top":380},"text":"keep","cornerPoints":[{"y":380,"x":732},{"y":380,"x":835},{"y":421,"x":835},{"y":421,"x":732}]},{"bounding":{"height":25,"left":852,"width":23,"top":388},"text":"a","cornerPoints":[{"y":388,"x":852},{"y":388,"x":875},{"y":413,"x":875},{"y":413,"x":852}]},{"bounding":{"height":35,"left":892,"width":153,"top":378},"text":"frlend?","cornerPoints":[{"y":378,"x":892},{"y":378,"x":1045},{"y":413,"x":1045},{"y":413,"x":892}]}],"bounding":{"top":378,"width":609,"left":436,"height":43},"cornerPoints":[{"x":436,"y":378},{"x":1045,"y":378},{"x":1045,"y":421},{"x":436,"y":421}],"text":"•HOW do you keep a frlend?"},{"elements":[{"bounding":{"height":33,"left":436,"width":111,"top":498},"text":"-How","cornerPoints":[{"y":498,"x":436},{"y":498,"x":547},{"y":531,"x":547},{"y":531,"x":436}]},{"bounding":{"height":27,"left":562,"width":113,"top":504},"text":"come","cornerPoints":[{"y":504,"x":562},{"y":504,"x":675},{"y":531,"x":675},{"y":531,"x":562}]},{"bounding":{"height":31,"left":694,"width":9,"top":498},"text":"I","cornerPoints":[{"y":498,"x":694},{"y":498,"x":703},{"y":529,"x":703},{"y":529,"x":694}]},{"bounding":{"height":33,"left":718,"width":109,"top":498},"text":"don't","cornerPoints":[{"y":498,"x":718},{"y":498,"x":827},{"y":531,"x":827},{"y":531,"x":718}]},{"bounding":{"height":33,"left":844,"width":99,"top":498},"text":"have","cornerPoints":[{"y":498,"x":844},{"y":498,"x":943},{"y":531,"x":943},{"y":531,"x":844}]},{"bounding":{"height":25,"left":960,"width":21,"top":506},"text":"a","cornerPoints":[{"y":506,"x":960},{"y":506,"x":981},{"y":531,"x":981},{"y":531,"x":960}]},{"bounding":{"height":35,"left":998,"width":151,"top":496},"text":"frlend?","cornerPoints":[{"y":496,"x":998},{"y":496,"x":1149},{"y":531,"x":1149},{"y":531,"x":998}]}],"bounding":{"top":496,"width":713,"left":436,"height":35},"cornerPoints":[{"x":436,"y":496},{"x":1149,"y":496},{"x":1149,"y":531},{"x":436,"y":531}],"text":"-How come I don't have a frlend?"}],"text":"-What isa friend?\n-How do you get a friend?\n•HOW do you keep a frlend?\n-How come I don't have a frlend?"}]
+[
+    {
+        "bounding": {
+            "height": 389,
+            "left": 436,
+            "width": 713,
+            "top": 142
+        },
+        "cornerPoints": [
+            {
+                "y": 142,
+                "x": 436
+            },
+            {
+                "y": 142,
+                "x": 1149
+            },
+            {
+                "y": 531,
+                "x": 1149
+            },
+            {
+                "y": 531,
+                "x": 436
+            }
+        ],
+        "lines": [
+            {
+                "elements": [
+                    {
+                        "bounding": {
+                            "height": 35,
+                            "left": 436,
+                            "width": 133,
+                            "top": 142
+                        },
+                        "text": "-What",
+                        "cornerPoints": [
+                            {
+                                "y": 142,
+                                "x": 436
+                            },
+                            {
+                                "y": 142,
+                                "x": 569
+                            },
+                            {
+                                "y": 177,
+                                "x": 569
+                            },
+                            {
+                                "y": 177,
+                                "x": 436
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 33,
+                            "left": 586,
+                            "width": 35,
+                            "top": 142
+                        },
+                        "text": "isa",
+                        "cornerPoints": [
+                            {
+                                "y": 142,
+                                "x": 586
+                            },
+                            {
+                                "y": 142,
+                                "x": 621
+                            },
+                            {
+                                "y": 175,
+                                "x": 621
+                            },
+                            {
+                                "y": 175,
+                                "x": 586
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 35,
+                            "left": 638,
+                            "width": 195,
+                            "top": 142
+                        },
+                        "text": "friend?",
+                        "cornerPoints": [
+                            {
+                                "y": 142,
+                                "x": 638
+                            },
+                            {
+                                "y": 142,
+                                "x": 833
+                            },
+                            {
+                                "y": 177,
+                                "x": 833
+                            },
+                            {
+                                "y": 177,
+                                "x": 638
+                            }
+                        ]
+                    }
+                ],
+                "bounding": {
+                    "top": 142,
+                    "width": 397,
+                    "left": 436,
+                    "height": 35
+                },
+                "cornerPoints": [
+                    {
+                        "x": 436,
+                        "y": 142
+                    },
+                    {
+                        "x": 833,
+                        "y": 142
+                    },
+                    {
+                        "x": 833,
+                        "y": 177
+                    },
+                    {
+                        "x": 436,
+                        "y": 177
+                    }
+                ],
+                "text": "-What isa friend?"
+            },
+            {
+                "elements": [
+                    {
+                        "bounding": {
+                            "height": 33,
+                            "left": 436,
+                            "width": 117,
+                            "top": 260
+                        },
+                        "text": "-How",
+                        "cornerPoints": [
+                            {
+                                "y": 260,
+                                "x": 436
+                            },
+                            {
+                                "y": 260,
+                                "x": 553
+                            },
+                            {
+                                "y": 293,
+                                "x": 553
+                            },
+                            {
+                                "y": 293,
+                                "x": 436
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 33,
+                            "left": 568,
+                            "width": 55,
+                            "top": 260
+                        },
+                        "text": "do",
+                        "cornerPoints": [
+                            {
+                                "y": 260,
+                                "x": 568
+                            },
+                            {
+                                "y": 260,
+                                "x": 623
+                            },
+                            {
+                                "y": 293,
+                                "x": 623
+                            },
+                            {
+                                "y": 293,
+                                "x": 568
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 35,
+                            "left": 638,
+                            "width": 79,
+                            "top": 266
+                        },
+                        "text": "you",
+                        "cornerPoints": [
+                            {
+                                "y": 266,
+                                "x": 638
+                            },
+                            {
+                                "y": 266,
+                                "x": 717
+                            },
+                            {
+                                "y": 301,
+                                "x": 717
+                            },
+                            {
+                                "y": 301,
+                                "x": 638
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 39,
+                            "left": 734,
+                            "width": 67,
+                            "top": 262
+                        },
+                        "text": "get",
+                        "cornerPoints": [
+                            {
+                                "y": 262,
+                                "x": 734
+                            },
+                            {
+                                "y": 262,
+                                "x": 801
+                            },
+                            {
+                                "y": 301,
+                                "x": 801
+                            },
+                            {
+                                "y": 301,
+                                "x": 734
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 27,
+                            "left": 818,
+                            "width": 21,
+                            "top": 266
+                        },
+                        "text": "a",
+                        "cornerPoints": [
+                            {
+                                "y": 266,
+                                "x": 818
+                            },
+                            {
+                                "y": 266,
+                                "x": 839
+                            },
+                            {
+                                "y": 293,
+                                "x": 839
+                            },
+                            {
+                                "y": 293,
+                                "x": 818
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 35,
+                            "left": 856,
+                            "width": 155,
+                            "top": 258
+                        },
+                        "text": "friend?",
+                        "cornerPoints": [
+                            {
+                                "y": 258,
+                                "x": 856
+                            },
+                            {
+                                "y": 258,
+                                "x": 1011
+                            },
+                            {
+                                "y": 293,
+                                "x": 1011
+                            },
+                            {
+                                "y": 293,
+                                "x": 856
+                            }
+                        ]
+                    }
+                ],
+                "bounding": {
+                    "top": 258,
+                    "width": 575,
+                    "left": 436,
+                    "height": 43
+                },
+                "cornerPoints": [
+                    {
+                        "x": 436,
+                        "y": 258
+                    },
+                    {
+                        "x": 1011,
+                        "y": 258
+                    },
+                    {
+                        "x": 1011,
+                        "y": 301
+                    },
+                    {
+                        "x": 436,
+                        "y": 301
+                    }
+                ],
+                "text": "-How do you get a friend?"
+            },
+            {
+                "elements": [
+                    {
+                        "bounding": {
+                            "height": 33,
+                            "left": 436,
+                            "width": 115,
+                            "top": 380
+                        },
+                        "text": "•HOW",
+                        "cornerPoints": [
+                            {
+                                "y": 380,
+                                "x": 436
+                            },
+                            {
+                                "y": 380,
+                                "x": 551
+                            },
+                            {
+                                "y": 413,
+                                "x": 551
+                            },
+                            {
+                                "y": 413,
+                                "x": 436
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 31,
+                            "left": 568,
+                            "width": 53,
+                            "top": 382
+                        },
+                        "text": "do",
+                        "cornerPoints": [
+                            {
+                                "y": 382,
+                                "x": 568
+                            },
+                            {
+                                "y": 382,
+                                "x": 621
+                            },
+                            {
+                                "y": 413,
+                                "x": 621
+                            },
+                            {
+                                "y": 413,
+                                "x": 568
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 33,
+                            "left": 638,
+                            "width": 77,
+                            "top": 388
+                        },
+                        "text": "you",
+                        "cornerPoints": [
+                            {
+                                "y": 388,
+                                "x": 638
+                            },
+                            {
+                                "y": 388,
+                                "x": 715
+                            },
+                            {
+                                "y": 421,
+                                "x": 715
+                            },
+                            {
+                                "y": 421,
+                                "x": 638
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 41,
+                            "left": 732,
+                            "width": 103,
+                            "top": 380
+                        },
+                        "text": "keep",
+                        "cornerPoints": [
+                            {
+                                "y": 380,
+                                "x": 732
+                            },
+                            {
+                                "y": 380,
+                                "x": 835
+                            },
+                            {
+                                "y": 421,
+                                "x": 835
+                            },
+                            {
+                                "y": 421,
+                                "x": 732
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 25,
+                            "left": 852,
+                            "width": 23,
+                            "top": 388
+                        },
+                        "text": "a",
+                        "cornerPoints": [
+                            {
+                                "y": 388,
+                                "x": 852
+                            },
+                            {
+                                "y": 388,
+                                "x": 875
+                            },
+                            {
+                                "y": 413,
+                                "x": 875
+                            },
+                            {
+                                "y": 413,
+                                "x": 852
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 35,
+                            "left": 892,
+                            "width": 153,
+                            "top": 378
+                        },
+                        "text": "frlend?",
+                        "cornerPoints": [
+                            {
+                                "y": 378,
+                                "x": 892
+                            },
+                            {
+                                "y": 378,
+                                "x": 1045
+                            },
+                            {
+                                "y": 413,
+                                "x": 1045
+                            },
+                            {
+                                "y": 413,
+                                "x": 892
+                            }
+                        ]
+                    }
+                ],
+                "bounding": {
+                    "top": 378,
+                    "width": 609,
+                    "left": 436,
+                    "height": 43
+                },
+                "cornerPoints": [
+                    {
+                        "x": 436,
+                        "y": 378
+                    },
+                    {
+                        "x": 1045,
+                        "y": 378
+                    },
+                    {
+                        "x": 1045,
+                        "y": 421
+                    },
+                    {
+                        "x": 436,
+                        "y": 421
+                    }
+                ],
+                "text": "•HOW do you keep a frlend?"
+            },
+            {
+                "elements": [
+                    {
+                        "bounding": {
+                            "height": 33,
+                            "left": 436,
+                            "width": 111,
+                            "top": 498
+                        },
+                        "text": "-How",
+                        "cornerPoints": [
+                            {
+                                "y": 498,
+                                "x": 436
+                            },
+                            {
+                                "y": 498,
+                                "x": 547
+                            },
+                            {
+                                "y": 531,
+                                "x": 547
+                            },
+                            {
+                                "y": 531,
+                                "x": 436
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 27,
+                            "left": 562,
+                            "width": 113,
+                            "top": 504
+                        },
+                        "text": "come",
+                        "cornerPoints": [
+                            {
+                                "y": 504,
+                                "x": 562
+                            },
+                            {
+                                "y": 504,
+                                "x": 675
+                            },
+                            {
+                                "y": 531,
+                                "x": 675
+                            },
+                            {
+                                "y": 531,
+                                "x": 562
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 31,
+                            "left": 694,
+                            "width": 9,
+                            "top": 498
+                        },
+                        "text": "I",
+                        "cornerPoints": [
+                            {
+                                "y": 498,
+                                "x": 694
+                            },
+                            {
+                                "y": 498,
+                                "x": 703
+                            },
+                            {
+                                "y": 529,
+                                "x": 703
+                            },
+                            {
+                                "y": 529,
+                                "x": 694
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 33,
+                            "left": 718,
+                            "width": 109,
+                            "top": 498
+                        },
+                        "text": "don't",
+                        "cornerPoints": [
+                            {
+                                "y": 498,
+                                "x": 718
+                            },
+                            {
+                                "y": 498,
+                                "x": 827
+                            },
+                            {
+                                "y": 531,
+                                "x": 827
+                            },
+                            {
+                                "y": 531,
+                                "x": 718
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 33,
+                            "left": 844,
+                            "width": 99,
+                            "top": 498
+                        },
+                        "text": "have",
+                        "cornerPoints": [
+                            {
+                                "y": 498,
+                                "x": 844
+                            },
+                            {
+                                "y": 498,
+                                "x": 943
+                            },
+                            {
+                                "y": 531,
+                                "x": 943
+                            },
+                            {
+                                "y": 531,
+                                "x": 844
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 25,
+                            "left": 960,
+                            "width": 21,
+                            "top": 506
+                        },
+                        "text": "a",
+                        "cornerPoints": [
+                            {
+                                "y": 506,
+                                "x": 960
+                            },
+                            {
+                                "y": 506,
+                                "x": 981
+                            },
+                            {
+                                "y": 531,
+                                "x": 981
+                            },
+                            {
+                                "y": 531,
+                                "x": 960
+                            }
+                        ]
+                    },
+                    {
+                        "bounding": {
+                            "height": 35,
+                            "left": 998,
+                            "width": 151,
+                            "top": 496
+                        },
+                        "text": "frlend?",
+                        "cornerPoints": [
+                            {
+                                "y": 496,
+                                "x": 998
+                            },
+                            {
+                                "y": 496,
+                                "x": 1149
+                            },
+                            {
+                                "y": 531,
+                                "x": 1149
+                            },
+                            {
+                                "y": 531,
+                                "x": 998
+                            }
+                        ]
+                    }
+                ],
+                "bounding": {
+                    "top": 496,
+                    "width": 713,
+                    "left": 436,
+                    "height": 35
+                },
+                "cornerPoints": [
+                    {
+                        "x": 436,
+                        "y": 496
+                    },
+                    {
+                        "x": 1149,
+                        "y": 496
+                    },
+                    {
+                        "x": 1149,
+                        "y": 531
+                    },
+                    {
+                        "x": 436,
+                        "y": 531
+                    }
+                ],
+                "text": "-How come I don't have a frlend?"
+            }
+        ],
+        "text": "-What isa friend?\n-How do you get a friend?\n•HOW do you keep a frlend?\n-How come I don't have a frlend?"
+    }
+]
