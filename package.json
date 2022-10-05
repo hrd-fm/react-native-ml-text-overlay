@@ -1,6 +1,6 @@
 {
   "name": "react-native-ml-text-overlay",
-  "version": "0.2.0",
+  "version": "0.0.1",
   "description": "ml overlay",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -47,30 +47,30 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^11.0.0",
-    "@react-native-community/eslint-config": "^2.0.0",
-    "@release-it/conventional-changelog": "^2.0.0",
-    "@types/jest": "^26.0.0",
-    "@types/ramda": "^0.28.15",
-    "@types/react": "^18.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@react-native-community/eslint-config": "2.0.0",
+    "@release-it/conventional-changelog": "2.0.0",
+    "@types/jest": "26.0.0",
+    "@types/ramda": "0.28.15",
+    "@types/react": "18.0.0",
     "@types/react-native": "0.69.4",
-    "@typescript-eslint/eslint-plugin": "^4.28.2",
-    "@typescript-eslint/parser": "^4.28.2",
-    "commitlint": "^11.0.0",
-    "eslint": "^7.30.0",
-    "husky": "^8.0.1",
-    "jest": "^26.0.1",
-    "pod-install": "^0.1.0",
-    "prettier": "^2.3.2",
+    "@typescript-eslint/eslint-plugin": "4.28.2",
+    "@typescript-eslint/parser": "4.28.2",
+    "commitlint": "11.0.0",
+    "eslint": "7.30.0",
+    "husky": "8.0.1",
+    "jest": "26.0.1",
+    "pod-install": "0.1.0",
+    "prettier": "2.3.2",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-native": "0.69.6",
-    "react-native-builder-bob": "^0.18.3",
+    "react-native-builder-bob": "0.18.3",
+    "react-native-gesture-handler": "2.7.0",
+    "react-native-reanimated": "2.10.0",
     "react-native-web": "~0.18.7",
-    "react-native-gesture-handler": "^2.7.0",
-    "react-native-reanimated": "^2.10.0",
-    "release-it": "^15.5.0",
-    "typescript": "^4.8.4"
+    "release-it": "15.5.0",
+    "typescript": "4.8.4"
   },
   "peerDependencies": {
     "react": "*",
@@ -96,23 +96,7 @@
       "@commitlint/config-conventional"
     ]
   },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release ${version}",
-      "tagName": "v${version}"
-    },
-    "npm": {
-      "publish": true
-    },
-    "github": {
-      "release": true
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "angular"
-      }
-    }
-  },
+  "release-it": {},
   "eslintConfig": {
     "root": true,
     "extends": [
@@ -158,6 +142,6 @@
     ]
   },
   "dependencies": {
-    "ramda": "^0.28.0"
+    "ramda": "0.28.0"
   }
 }
