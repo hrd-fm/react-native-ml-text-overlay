@@ -1,0 +1,916 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`converts converts XYtoBoundary to boundary 1`] = `
+Object {
+  "height": 1346,
+  "left": 41,
+  "top": 25,
+  "width": 896,
+}
+`;
+
+exports[`converts converts cloud vision to the right format 1`] = `
+Array [
+  Object {
+    "bounding": Object {
+      "height": 475,
+      "left": 87,
+      "top": 126,
+      "width": 1062,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 87,
+        "y": 126,
+      },
+      Object {
+        "x": 1149,
+        "y": 126,
+      },
+      Object {
+        "x": 1149,
+        "y": 601,
+      },
+      Object {
+        "x": 87,
+        "y": 601,
+      },
+    ],
+    "locale": "en",
+    "text": "• What is a friend?
+- How do you get a friend?
+- How do you keep a friend?
+-How come I don't have a friend?
+s
+",
+  },
+  Object {
+    "bounding": Object {
+      "height": 66,
+      "left": 435,
+      "top": 126,
+      "width": 12,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 435,
+        "y": 126,
+      },
+      Object {
+        "x": 447,
+        "y": 126,
+      },
+      Object {
+        "x": 447,
+        "y": 192,
+      },
+      Object {
+        "x": 435,
+        "y": 192,
+      },
+    ],
+    "locale": undefined,
+    "text": "•",
+  },
+  Object {
+    "bounding": Object {
+      "height": 66,
+      "left": 460,
+      "top": 126,
+      "width": 109,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 460,
+        "y": 126,
+      },
+      Object {
+        "x": 569,
+        "y": 126,
+      },
+      Object {
+        "x": 569,
+        "y": 192,
+      },
+      Object {
+        "x": 460,
+        "y": 192,
+      },
+    ],
+    "locale": undefined,
+    "text": "What",
+  },
+  Object {
+    "bounding": Object {
+      "height": 66,
+      "left": 587,
+      "top": 126,
+      "width": 34,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 587,
+        "y": 126,
+      },
+      Object {
+        "x": 621,
+        "y": 126,
+      },
+      Object {
+        "x": 621,
+        "y": 192,
+      },
+      Object {
+        "x": 587,
+        "y": 192,
+      },
+    ],
+    "locale": undefined,
+    "text": "is",
+  },
+  Object {
+    "bounding": Object {
+      "height": 66,
+      "left": 639,
+      "top": 126,
+      "width": 21,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 639,
+        "y": 126,
+      },
+      Object {
+        "x": 660,
+        "y": 126,
+      },
+      Object {
+        "x": 660,
+        "y": 192,
+      },
+      Object {
+        "x": 639,
+        "y": 192,
+      },
+    ],
+    "locale": undefined,
+    "text": "a",
+  },
+  Object {
+    "bounding": Object {
+      "height": 66,
+      "left": 677,
+      "top": 126,
+      "width": 128,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 677,
+        "y": 126,
+      },
+      Object {
+        "x": 805,
+        "y": 126,
+      },
+      Object {
+        "x": 805,
+        "y": 192,
+      },
+      Object {
+        "x": 677,
+        "y": 192,
+      },
+    ],
+    "locale": undefined,
+    "text": "friend",
+  },
+  Object {
+    "bounding": Object {
+      "height": 66,
+      "left": 811,
+      "top": 126,
+      "width": 21,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 811,
+        "y": 126,
+      },
+      Object {
+        "x": 832,
+        "y": 126,
+      },
+      Object {
+        "x": 832,
+        "y": 192,
+      },
+      Object {
+        "x": 811,
+        "y": 192,
+      },
+    ],
+    "locale": undefined,
+    "text": "?",
+  },
+  Object {
+    "bounding": Object {
+      "height": 64,
+      "left": 434,
+      "top": 248,
+      "width": 12,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 434,
+        "y": 248,
+      },
+      Object {
+        "x": 446,
+        "y": 248,
+      },
+      Object {
+        "x": 446,
+        "y": 312,
+      },
+      Object {
+        "x": 434,
+        "y": 312,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 63,
+      "left": 459,
+      "top": 248,
+      "width": 93,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 459,
+        "y": 248,
+      },
+      Object {
+        "x": 552,
+        "y": 248,
+      },
+      Object {
+        "x": 552,
+        "y": 311,
+      },
+      Object {
+        "x": 459,
+        "y": 312,
+      },
+    ],
+    "locale": undefined,
+    "text": "How",
+  },
+  Object {
+    "bounding": Object {
+      "height": 64,
+      "left": 568,
+      "top": 248,
+      "width": 53,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 568,
+        "y": 248,
+      },
+      Object {
+        "x": 621,
+        "y": 248,
+      },
+      Object {
+        "x": 621,
+        "y": 312,
+      },
+      Object {
+        "x": 568,
+        "y": 312,
+      },
+    ],
+    "locale": undefined,
+    "text": "do",
+  },
+  Object {
+    "bounding": Object {
+      "height": 64,
+      "left": 637,
+      "top": 247,
+      "width": 78,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 637,
+        "y": 247,
+      },
+      Object {
+        "x": 715,
+        "y": 247,
+      },
+      Object {
+        "x": 715,
+        "y": 311,
+      },
+      Object {
+        "x": 637,
+        "y": 311,
+      },
+    ],
+    "locale": undefined,
+    "text": "you",
+  },
+  Object {
+    "bounding": Object {
+      "height": 64,
+      "left": 733,
+      "top": 247,
+      "width": 67,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 733,
+        "y": 247,
+      },
+      Object {
+        "x": 800,
+        "y": 247,
+      },
+      Object {
+        "x": 800,
+        "y": 311,
+      },
+      Object {
+        "x": 733,
+        "y": 311,
+      },
+    ],
+    "locale": undefined,
+    "text": "get",
+  },
+  Object {
+    "bounding": Object {
+      "height": 64,
+      "left": 817,
+      "top": 246,
+      "width": 21,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 817,
+        "y": 246,
+      },
+      Object {
+        "x": 838,
+        "y": 246,
+      },
+      Object {
+        "x": 838,
+        "y": 310,
+      },
+      Object {
+        "x": 817,
+        "y": 310,
+      },
+    ],
+    "locale": undefined,
+    "text": "a",
+  },
+  Object {
+    "bounding": Object {
+      "height": 65,
+      "left": 855,
+      "top": 246,
+      "width": 127,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 855,
+        "y": 246,
+      },
+      Object {
+        "x": 982,
+        "y": 245,
+      },
+      Object {
+        "x": 982,
+        "y": 310,
+      },
+      Object {
+        "x": 855,
+        "y": 311,
+      },
+    ],
+    "locale": undefined,
+    "text": "friend",
+  },
+  Object {
+    "bounding": Object {
+      "height": 64,
+      "left": 988,
+      "top": 245,
+      "width": 22,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 988,
+        "y": 245,
+      },
+      Object {
+        "x": 1010,
+        "y": 245,
+      },
+      Object {
+        "x": 1010,
+        "y": 309,
+      },
+      Object {
+        "x": 988,
+        "y": 309,
+      },
+    ],
+    "locale": undefined,
+    "text": "?",
+  },
+  Object {
+    "bounding": Object {
+      "height": 67,
+      "left": 433,
+      "top": 363,
+      "width": 13,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 433,
+        "y": 363,
+      },
+      Object {
+        "x": 446,
+        "y": 363,
+      },
+      Object {
+        "x": 446,
+        "y": 430,
+      },
+      Object {
+        "x": 433,
+        "y": 430,
+      },
+    ],
+    "locale": undefined,
+    "text": "-",
+  },
+  Object {
+    "bounding": Object {
+      "height": 67,
+      "left": 457,
+      "top": 363,
+      "width": 93,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 457,
+        "y": 363,
+      },
+      Object {
+        "x": 550,
+        "y": 362,
+      },
+      Object {
+        "x": 550,
+        "y": 429,
+      },
+      Object {
+        "x": 457,
+        "y": 430,
+      },
+    ],
+    "locale": undefined,
+    "text": "How",
+  },
+  Object {
+    "bounding": Object {
+      "height": 68,
+      "left": 565,
+      "top": 362,
+      "width": 55,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 565,
+        "y": 362,
+      },
+      Object {
+        "x": 620,
+        "y": 362,
+      },
+      Object {
+        "x": 620,
+        "y": 430,
+      },
+      Object {
+        "x": 565,
+        "y": 430,
+      },
+    ],
+    "locale": undefined,
+    "text": "do",
+  },
+  Object {
+    "bounding": Object {
+      "height": 67,
+      "left": 635,
+      "top": 362,
+      "width": 79,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 635,
+        "y": 362,
+      },
+      Object {
+        "x": 714,
+        "y": 362,
+      },
+      Object {
+        "x": 714,
+        "y": 429,
+      },
+      Object {
+        "x": 635,
+        "y": 429,
+      },
+    ],
+    "locale": undefined,
+    "text": "you",
+  },
+  Object {
+    "bounding": Object {
+      "height": 68,
+      "left": 731,
+      "top": 361,
+      "width": 103,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 731,
+        "y": 361,
+      },
+      Object {
+        "x": 834,
+        "y": 360,
+      },
+      Object {
+        "x": 834,
+        "y": 428,
+      },
+      Object {
+        "x": 731,
+        "y": 429,
+      },
+    ],
+    "locale": undefined,
+    "text": "keep",
+  },
+  Object {
+    "bounding": Object {
+      "height": 67,
+      "left": 851,
+      "top": 361,
+      "width": 23,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 851,
+        "y": 361,
+      },
+      Object {
+        "x": 874,
+        "y": 361,
+      },
+      Object {
+        "x": 874,
+        "y": 428,
+      },
+      Object {
+        "x": 851,
+        "y": 428,
+      },
+    ],
+    "locale": undefined,
+    "text": "a",
+  },
+  Object {
+    "bounding": Object {
+      "height": 68,
+      "left": 891,
+      "top": 360,
+      "width": 127,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 891,
+        "y": 360,
+      },
+      Object {
+        "x": 1018,
+        "y": 359,
+      },
+      Object {
+        "x": 1018,
+        "y": 427,
+      },
+      Object {
+        "x": 891,
+        "y": 428,
+      },
+    ],
+    "locale": undefined,
+    "text": "friend",
+  },
+  Object {
+    "bounding": Object {
+      "height": 67,
+      "left": 1023,
+      "top": 360,
+      "width": 23,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 1023,
+        "y": 360,
+      },
+      Object {
+        "x": 1046,
+        "y": 360,
+      },
+      Object {
+        "x": 1046,
+        "y": 427,
+      },
+      Object {
+        "x": 1023,
+        "y": 427,
+      },
+    ],
+    "locale": undefined,
+    "text": "?",
+  },
+  Object {
+    "bounding": Object {
+      "height": 62,
+      "left": 435,
+      "top": 487,
+      "width": 111,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 435,
+        "y": 487,
+      },
+      Object {
+        "x": 546,
+        "y": 487,
+      },
+      Object {
+        "x": 546,
+        "y": 549,
+      },
+      Object {
+        "x": 435,
+        "y": 549,
+      },
+    ],
+    "locale": undefined,
+    "text": "-How",
+  },
+  Object {
+    "bounding": Object {
+      "height": 62,
+      "left": 562,
+      "top": 487,
+      "width": 114,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 562,
+        "y": 487,
+      },
+      Object {
+        "x": 676,
+        "y": 487,
+      },
+      Object {
+        "x": 676,
+        "y": 549,
+      },
+      Object {
+        "x": 562,
+        "y": 549,
+      },
+    ],
+    "locale": undefined,
+    "text": "come",
+  },
+  Object {
+    "bounding": Object {
+      "height": 62,
+      "left": 693,
+      "top": 487,
+      "width": 9,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 693,
+        "y": 487,
+      },
+      Object {
+        "x": 702,
+        "y": 487,
+      },
+      Object {
+        "x": 702,
+        "y": 549,
+      },
+      Object {
+        "x": 693,
+        "y": 549,
+      },
+    ],
+    "locale": undefined,
+    "text": "I",
+  },
+  Object {
+    "bounding": Object {
+      "height": 62,
+      "left": 719,
+      "top": 487,
+      "width": 109,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 719,
+        "y": 487,
+      },
+      Object {
+        "x": 828,
+        "y": 487,
+      },
+      Object {
+        "x": 828,
+        "y": 549,
+      },
+      Object {
+        "x": 719,
+        "y": 549,
+      },
+    ],
+    "locale": undefined,
+    "text": "don't",
+  },
+  Object {
+    "bounding": Object {
+      "height": 62,
+      "left": 844,
+      "top": 487,
+      "width": 99,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 844,
+        "y": 487,
+      },
+      Object {
+        "x": 943,
+        "y": 487,
+      },
+      Object {
+        "x": 943,
+        "y": 549,
+      },
+      Object {
+        "x": 844,
+        "y": 549,
+      },
+    ],
+    "locale": undefined,
+    "text": "have",
+  },
+  Object {
+    "bounding": Object {
+      "height": 62,
+      "left": 960,
+      "top": 487,
+      "width": 21,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 960,
+        "y": 487,
+      },
+      Object {
+        "x": 981,
+        "y": 487,
+      },
+      Object {
+        "x": 981,
+        "y": 549,
+      },
+      Object {
+        "x": 960,
+        "y": 549,
+      },
+    ],
+    "locale": undefined,
+    "text": "a",
+  },
+  Object {
+    "bounding": Object {
+      "height": 62,
+      "left": 997,
+      "top": 487,
+      "width": 124,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 997,
+        "y": 487,
+      },
+      Object {
+        "x": 1121,
+        "y": 487,
+      },
+      Object {
+        "x": 1121,
+        "y": 549,
+      },
+      Object {
+        "x": 997,
+        "y": 549,
+      },
+    ],
+    "locale": undefined,
+    "text": "friend",
+  },
+  Object {
+    "bounding": Object {
+      "height": 62,
+      "left": 1127,
+      "top": 487,
+      "width": 22,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 1127,
+        "y": 487,
+      },
+      Object {
+        "x": 1149,
+        "y": 487,
+      },
+      Object {
+        "x": 1149,
+        "y": 549,
+      },
+      Object {
+        "x": 1127,
+        "y": 549,
+      },
+    ],
+    "locale": undefined,
+    "text": "?",
+  },
+  Object {
+    "bounding": Object {
+      "height": 80,
+      "left": 88,
+      "top": 520,
+      "width": 90,
+    },
+    "cornerPoints": Array [
+      Object {
+        "x": 88,
+        "y": 520,
+      },
+      Object {
+        "x": 178,
+        "y": 521,
+      },
+      Object {
+        "x": 177,
+        "y": 601,
+      },
+      Object {
+        "x": 87,
+        "y": 600,
+      },
+    ],
+    "locale": undefined,
+    "text": "s",
+  },
+]
+`;

@@ -1,6 +1,6 @@
 {
   "name": "react-native-ml-text-overlay",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "description": "ml overlay",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -50,12 +50,16 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "dependencies": {
+    "ramda": "^0.29.0"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.2.2",
     "@react-native/eslint-config": "^0.72.2",
     "@release-it/conventional-changelog": "^5.0.0",
     "@types/jest": "^28.1.2",
+    "@types/ramda": "^0.29.4",
     "@types/react": "~17.0.21",
     "@types/react-native": "0.70.0",
     "commitlint": "^17.0.2",
