@@ -45,10 +45,6 @@ target 'MlTextOverlayExample' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'MlTextOverlayExampleTests' do
-    inherit! :complete
-    # Pods for testing
-  end
 
   post_install do |installer|
     # https://github.com/facebook/react-native/blob/main/packages/react-native/scripts/react_native_pods.rb#L197-L202
@@ -57,6 +53,10 @@ target 'MlTextOverlayExample' do
       config[:reactNativePath],
       :mac_catalyst_enabled => false
     )
+
+    installer.pods_project.build_configurations.each do |config|
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+    end
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
 end
